@@ -1,0 +1,260 @@
+body {
+    font-family: arial;
+    background-color: #e7e7e7;
+}
+
+.logo {
+    width: 300px;
+    height: 109px;
+    transition: 0.49s ease;
+    top: 0px;
+
+}
+
+.logo:hover {
+    width: 300px;
+    height: 109px;
+    transition: 0.49s ease;
+    transform: scale(105%);
+    top: 0px;
+}
+
+.precio {
+    padding: 1%;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 0px black;
+}
+
+.texto {
+
+    text-align: right;
+    font-size: 13px
+}
+
+.linea_azul {
+    color: blue;
+    font-style: italic;
+}
+
+.linea_gris {
+    color: #86736d;
+}
+
+#img {
+    width: 495px;
+    height: 445px;
+}
+
+#cargador,
+#buds,
+#adap,
+#watch,
+#smart {
+
+    visibility: hidden;
+
+}
+
+.tabla2 {
+    text-align: right;
+    font-size: 15px;
+    color: #86736d;
+    position: relative;
+}
+
+#imgc,
+#imgb,
+#imga,
+#imgw,
+#imgs {
+
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#imgc:active {
+
+    cursor: pointer;
+    width: 79.07px;
+    height: 79.07px;
+
+}
+
+#imgb:active {
+
+    cursor: pointer;
+    width: 79.07px;
+    height: 79.07px;
+
+}
+
+#imga:active {
+
+    cursor: pointer;
+    width: 79.07px;
+    height: 79.07px;
+
+}
+
+#imgw:active {
+
+    cursor: pointer;
+    width: 79.07px;
+    height: 79.07px;
+
+}
+
+#imgs:active {
+
+    cursor: pointer;
+    width: 79.07px;
+    height: 79.07px;
+
+}
+
+.color {
+    padding: 1%;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 0px black;
+    margin-top: -20px;
+}
+
+#negro {
+    background-image: url(images/colornegro.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    width: 70px;
+    height: 70px;
+    transition: 0.45s ease;
+    cursor: pointer;
+}
+
+#negro:hover {
+    background-image: url(images/colornegro.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    transition: 0.45s ease;
+    transform: scale(105%);
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    box-shadow: 0 0 20px #000000cf;
+    cursor: pointer;
+
+}
+
+#blanco {
+    background-image: url(images/colorblanco.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    width: 70px;
+    height: 70px;
+    transition: 0.45s ease;
+    cursor: pointer;
+
+}
+
+#blanco:hover {
+    background-image: url(images/colorblanco.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    transition: 0.45s ease;
+    transform: scale(105%);
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    box-shadow: 0 0 20px #ffffffe8;
+    cursor: pointer;
+
+}
+
+#gris {
+    background-image: url(images/colorgris.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    width: 70px;
+    height: 70px;
+    transition: 0.45s ease;
+    cursor: pointer;
+
+}
+
+#gris:hover {
+    background-image: url(images/colorgris.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: 0.45s ease;
+    transform: scale(105%);
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    box-shadow: 0 0 20px #99a774;
+
+}
+
+#violeta {
+    background-image: url(images/colorvioleta.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    width: 70px;
+    height: 70px;
+    transition: 0.45s ease;
+    cursor: pointer;
+
+}
+
+#violeta:hover {
+    background-image: url(images/colorvioleta.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: 0.45s ease;
+    transform: scale(105%);
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    box-shadow: 0 0 20px #743269f0;
+
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ej1-Juan Carlos Navidad</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ej1-JuanCarlosNavidad.css" />
+</head>
+
+<script src="ej1-JuanCarlosNavidad.js"></script>
+
+<body>
+
+    <header>
+        <center><img class="logo" src="images/logo.png" /></center>
+    </header>
+    <hr>
+    <center>
+        <p class="precio">Precio: <a id="total">695</a><a>€</a></p>
+    </center>
+    <hr>
+    <br>
+    <center>
+        <table class="tabla">
+
+            <tr>
+                <td class="texto">
+
+                    <p class="linea_azul"><b>El Galaxy S21 FE 5G</b> contiene todo lo que te gusta en 6.4 pulgadas: un
+                        tamaño hecho para conectar de la mejor manera con todos tus amigos.</p>
+
+                    <p class="linea_gris">Con una pantalla de desplazamiento más suave con <b>Super Smooth 120Hz</b>,
+                        tus pulgares te lo agradecerán. Más suavidad a tu alcance.</p>
+
+                    <p class="linea_azul">La cámara de calidad profesional del <b>Galaxy S21 FE 5G</b> con 108 Mp ofrece
+                        una calidad nunca vista antes con niveles de detalle extraordinarios.</p>
+
+                    <p class="linea_gris">Además, ya forma parte de este smartphone el cristal <b>Corning Gorilla® Glass
+                            Victus</b>, el cristal más resistente de un smartphone Samsung Galaxy.</p>
+
+                    <p class="linea_azul">Una visión más amplia, ya que la pantalla <b>Dynamic AMOLED 2X del Galaxy S21
+                            FE 5G</b> ofrece un color y un brillo vibrantes incluso a plena luz del día.</p>
+
+
+                </td>
+                <td>
+
+                    <img id="img" src="images/negro.JPG">
+
+                </td>
+                <td>
+
+                    <table class="tabla2">
+
+                        <tr>
+
+                            <td style="position:relative; height: 100px;">
+
+                                <input type="checkbox" id="cargador"
+                                    onclick="if (this.checked) suma(39,'imgc','cargador1'); else resta(39,'imgc','cargador1')">
+                                <label for="cargador">
+                                    <img src="images/cargador.JPG" id="imgc">
+                                </label>
+
+                            </td>
+
+                            <td>
+
+                                <p id="cargador1">Cargador Inalámbrico - 39 €</p>
+
+                            </td>
+
+                        </tr>
+                        <tr>
+
+                            <td style="position:relative; height: 100px;">
+
+                                <input type="checkbox" id="buds"
+                                    onclick="if (this.checked) suma(119,'imgb','buds1'); else resta(119,'imgb','buds1')">
+                                <label for="buds">
+                                    <img src="images/buds.JPG" id="imgb">
+                                </label>
+
+                            </td>
+
+                            <td>
+
+                                <p id="buds1">Buds 2 - 119 €</p>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td style="position:relative; height: 100px;">
+
+                                <input type="checkbox" id="adap"
+                                    onclick="if (this.checked) suma(23,'imga','adap1'); else resta(23,'imga','adap1')">
+                                <label for="adap">
+                                    <img src="images/adaptador.JPG" id="imga">
+                                </label>
+
+                            </td>
+
+                            <td>
+
+                                <p id="adap1">Adaptador - 23 €</p>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td style="position:relative; height: 100px;">
+
+                                <input type="checkbox" id="watch"
+                                    onclick="if (this.checked) suma(179,'imgw','watch1'); else resta(179,'imgw','watch1')">
+                                <label for="watch">
+                                    <img src="images/watch4.JPG" id="imgw">
+                                </label>
+
+                            </td>
+
+                            <td>
+
+                                <p id="watch1">Watch 4 - 179 €</p>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td style="position:relative; height: 100px;">
+
+                                <input type="checkbox" id="smart"
+                                    onclick="if (this.checked) suma(119,'imgs','smart1'); else resta(119,'imgs','smart1')">
+                                <label for="smart">
+                                    <img src="images/smarttag.JPG" id="imgs">
+                                </label>
+
+                            </td>
+
+                            <td>
+
+                                <p id="smart1">SmartTag - 119 €</p>
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </td>
+            </tr>
+
+        </table>
+    </center>
+
+    <center>
+        <p class="color">Elije Color: </p>
+    </center>
+
+    <center>
+        <table class="tabla3">
+
+            <tr>
+                <td>
+                    <input id="negro" type="button" name="negro" value="Negro" checked onclick="negro()">
+                </td>
+                <td>
+
+                    <input id="blanco" type="button" name="blanco" value="Blanco" onclick="blanco()">
+
+                </td>
+                <td>
+
+                    <input id="gris" type="button" name="gris" value="Gris" onclick="gris()">
+
+                </td>
+                <td>
+
+                    <input id="violeta" type="button" name="violeta" value="Violeta" onclick="violeta()">
+
+                </td>
+            </tr>
+
+        </table>
+    </center>
+
+
+
+</body>
+
+
+</html>

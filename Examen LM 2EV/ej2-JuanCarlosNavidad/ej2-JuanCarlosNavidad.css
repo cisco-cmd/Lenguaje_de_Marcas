@@ -1,0 +1,93 @@
+body {
+
+    background-color: #cbe7ff;
+    transition: 0.10s ease;
+}
+#titulo{
+
+    font-family: arial;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px #0000ff3b;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.cajas{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    vertical-align: middle;
+
+}
+
+#caja1,#caja2{
+
+    display: inline-table;
+    border: 5px solid blue;
+    background-color: aliceblue;
+    float: none;
+    width: 230px;
+    height: 230px;
+    vertical-align: middle;
+    
+}
+
+.caja {
+
+    font-family: arial;
+    margin-top:60px;
+
+}
+
+.cajat {
+
+    font-family: arial;
+    padding-left:5px;
+    padding-right: 5px;
+    vertical-align: middle;
+
+}
+
+#btn{
+
+    position:fixed;
+    width:150px;
+    height: 30px;
+    border:2px solid blue;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color:blue;
+    box-shadow: 0 0 2px blue;
+    transition: 0.20s ease;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: -75px;
+    cursor:pointer;
+
+}
+
+#btn:hover{
+
+    position:fixed;
+    width:150px;
+    height: 30px;
+    transform:scale(105%);
+    transition: 0.20s ease;
+    border:2px solid blue;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color:blue;
+    box-shadow: 0 0 2px blue;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: -75px;
+    cursor:pointer;
+
+}
