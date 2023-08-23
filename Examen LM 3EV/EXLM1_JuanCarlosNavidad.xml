@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EXLM2_JuanCarlosNavidad.xsl"?>
+<pelis_oscars>
+
+    <web>https://www.oscars.org/</web>
+
+    <pelicula>
+        <nombre>Nomadland</nombre>
+        <año>2020</año>
+        <director>Chloé Zao</director>
+        <actor>Frances McDormand</actor>
+        <sexo>F</sexo>
+        <productora>Highwayman Films</productora>
+        <duracion>108'</duracion>
+        <oscars>3</oscars>
+        <enlace>https://nomadland.com/</enlace>
+        <imagen>Nomadland.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>1917</nombre>
+        <año>2019</año>
+        <director>Sam Mendes</director>
+        <actor>George Mackay</actor>
+        <sexo>M</sexo>
+        <productora>DreamWorks</productora>
+        <duracion>119'</duracion>
+        <oscars>3</oscars>
+        <enlace>https://1917.com/</enlace>
+        <imagen>1917.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>Green Book</nombre>
+        <año>2018</año>
+        <director>Peter Farrelly</director>
+        <actor>Viggo Mortensen</actor>
+        <sexo>M</sexo>
+        <productora>Universal Pictures</productora>
+        <duracion>130'</duracion>
+        <oscars>3</oscars>
+        <enlace>https://greenbook.com/</enlace>
+        <imagen>Green_Book.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>Bohemian Rhapsody</nombre>
+        <año>2018</año>
+        <director>Bryan Singer</director>
+        <actor>Rami Malek</actor>
+        <sexo>M</sexo>
+        <productora>20th Century Fox</productora>
+        <duracion>133'</duracion>
+        <oscars>4</oscars>
+        <enlace>https://bohemianrhapsody.com/</enlace>
+        <imagen>Bohemian_Rhapsody.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>Sin perdón</nombre>
+        <año>1992</año>
+        <director>Clint Eastwood</director>
+        <actor>Clint Eastwood</actor>
+        <sexo>M</sexo>
+        <productora>Malpaso Production</productora>
+        <duracion>131'</duracion>
+        <oscars>3</oscars>
+        <enlace>https://sinperdon.com/</enlace>
+        <imagen>Sin_perdon.jpg</imagen>
+    </pelicula>
+    
+    <pelicula>
+        <nombre>Una mente maravillosa</nombre>
+        <año>2011</año>
+        <director>Ron Howard</director>
+        <actor>Rusell Crowe</actor>
+        <sexo>M</sexo>
+        <productora>DreamWorks</productora>
+        <duracion>140</duracion>
+        <oscars>4</oscars>
+        <enlace>https://mentemaravillosa.com/</enlace>
+        <imagen>Una_mente_maravillosa.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>La La Land</nombre>
+        <año>2016</año>
+        <director>Damien Chazelle</director>
+        <actor>Emma Stone</actor>
+        <sexo>F</sexo>
+        <productora>Summit Ent.</productora>
+        <duracion>127'</duracion>
+        <oscars>5</oscars>
+        <enlace>https://lalaland.com/</enlace>
+        <imagen>lalaland.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>Braveheart</nombre>
+        <año>1995</año>
+        <director>Mel Gibson</director>
+        <actor>Mel Gibson</actor>
+        <sexo>M</sexo>
+        <productora>Paramount Pictures</productora>
+        <duracion>182'</duracion>
+        <oscars>5</oscars>
+        <enlace>https://braveheart.com/</enlace>
+        <imagen>braveheart.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>El poder del perro</nombre>
+        <año>2021</año>
+        <director>Jane Campion</director>
+        <actor>Benedict Cumberbatch</actor>
+        <sexo>M</sexo>
+        <productora>See-Saw Films</productora>
+        <duracion>125'</duracion>
+        <oscars>1</oscars>
+        <enlace>https://poderdelperro.com/</enlace>
+        <imagen>el_poder_del_perro.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>Million Dollar Baby</nombre>
+        <año>2004</año>
+        <director>Clint Eastwood</director>
+        <actor>Hilary Swank</actor>
+        <sexo>F</sexo>
+        <productora>Malpaso Productions</productora>
+        <duracion>132'</duracion>
+        <oscars>4</oscars>
+        <enlace>https://milliondollarbaby.com/</enlace>
+        <imagen>million_dollar_baby.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>En tierra hostil</nombre>
+        <año>2008</año>
+        <director>Kathryn Bigelow</director>
+        <actor>Jeremy Renner</actor>
+        <sexo>M</sexo>
+        <productora>Summit Ent.</productora>
+        <duracion>125'</duracion>
+        <oscars>5</oscars>
+        <enlace>https://tierrahostil.com/</enlace>
+        <imagen>en_tierra_hostil.jpg</imagen>
+    </pelicula>
+
+    <pelicula>
+        <nombre>The whale</nombre>
+        <año>2022</año>
+        <director>Darren Aronofsky</director>
+        <actor>Brendan Fraser</actor>
+        <sexo>M</sexo>
+        <productora>Protozoa Pictures</productora>
+        <duracion>117'</duracion>
+        <oscars>3</oscars>
+        <enlace>https://thewale.com/</enlace>
+        <imagen>The_Whale.jpg</imagen>
+    </pelicula>
+
+</pelis_oscars>
