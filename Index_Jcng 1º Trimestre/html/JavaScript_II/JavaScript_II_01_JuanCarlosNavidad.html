@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 1 JavaScript II Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font color="blue">
+        <font face="calibri">
+        <script language="JavaScript">
+
+            var num1= prompt("Escriba el primer número");
+            var num2= prompt("Escriba el segundo número");
+
+
+            var suma=parseInt(num1)+parseInt(num2)
+
+            var dif=parseInt(num1)-parseInt(num2)
+
+            var dif1=parseInt(num2)-parseInt(num1)
+
+            var prod=parseInt(num1)*parseInt(num2)
+
+            var div=parseInt(num1)/parseInt(num2)
+
+            var div1=parseInt(num2)/parseInt(num1)
+
+            document.write("<center><h1 style=color:#4db7e1;font-family:verdana;> Juan Carlos Navidad García </h1> </center><hr>");
+
+
+            document.write("La suma de "+num1+" y "+num2+" es " +suma+"<br>");
+
+            if (num1>num2) {
+
+                document.write("La diferencia de "+num1+" y "+num2+" es " +dif +"<br>");
+
+            }
+
+            else{
+
+                document.write("La diferencia de "+num2+" y "+num1+" es " +dif1+"<br>");
+
+            }
+
+            document.write("El producto de "+num1+" y "+num2+" es " +prod+"<br>");
+
+            if (num1>num2) {
+
+            document.write("La división entre "+num1+" y "+num2+" es " +div.toFixed(2));
+
+            }
+
+            else{
+
+            document.write("La división entre "+num2+" y "+num1+" es " +div1.toFixed(2));
+
+            }
+
+            
+
+        </script>
+        </font>
+        </font>
+        </center>
+    </body>
+</html>

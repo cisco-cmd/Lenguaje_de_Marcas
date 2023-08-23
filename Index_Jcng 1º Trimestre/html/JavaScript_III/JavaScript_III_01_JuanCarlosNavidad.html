@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 1 JavaScript II Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+        <script language="JavaScript">
+            
+            let sum=0;
+            let par = [];
+            let opc = [];
+
+            
+            let pet = Number(prompt("Escriba un número:"));
+
+            if (opc.length>0){
+                opc = [];
+            }
+            
+            opc.push(pet);
+
+            for (cont=1;cont<pet;cont++) {
+
+                if(cont%2==0){
+
+                    par.push(cont);
+
+                }  
+
+            }
+
+            for (let i=0;i<par.length;i++){
+
+                sum+=par[i];
+
+            }
+            
+            document.write("<center><h1 style=color:#4db7e1;font-family:verdana;> Juan Carlos Navidad García </h1> </center><hr>");
+            document.write("Los números pares hasta el "+opc+" son: "+par+"<br>");
+            document.write("La suma de los números pares es: "+sum+"<br>");
+
+        </script>
+        </font>
+        </center>
+    </body>
+</html>

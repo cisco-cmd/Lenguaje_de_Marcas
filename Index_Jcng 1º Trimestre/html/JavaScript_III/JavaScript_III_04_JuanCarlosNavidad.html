@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 4 JavaScript II Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+        <script language="JavaScript">
+
+            let nums=[];
+            let sum=Number(0);
+
+            let num1=Number(prompt("Escriba el primer número:"));
+            let num2=Number(prompt("Escriba el segundo número:"));
+
+
+            for (cont=num1;cont<num2+1;cont++) {
+
+                nums.push(cont);
+
+            }  
+
+
+            for (let i=0;i<nums.length;i++){
+
+                sum+=nums[i];
+
+            }
+            document.write("<center><h1 style=color:#4db7e1;font-family:verdana;> Juan Carlos Navidad García </h1> </center><hr>");
+            document.write("Los números comprendidos entre el "+num1+" y "+num2+" son: "+nums+"<br>");
+            document.write("La suma de los números es: "+sum);
+
+        </script>
+        </font>
+        </center>
+    </body>
+</html>

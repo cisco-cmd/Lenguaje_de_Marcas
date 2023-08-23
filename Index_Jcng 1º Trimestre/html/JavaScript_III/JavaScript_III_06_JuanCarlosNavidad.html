@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 6 JavaScript II Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+        <script language="JavaScript">
+
+
+        let fact=[];
+        let mul=Number(1);
+        let num1= Number(prompt("Escriba un número:"));
+        
+        for (i=1;i<num1+1;i++) {
+
+            fact.push(i);
+
+        }
+
+        for (let x=0;x<Number(fact.length);x++){
+            
+            mul*=fact[x];
+        
+        }
+
+        let fact1=fact.join(' x ');
+
+        document.write("<center><h1 style=color:#4db7e1;font-family:verdana;> Juan Carlos Navidad García </h1> </center><hr>");
+        document.write("El factorial de "+num1+" es " +fact1+" que es igual a: "+mul);
+
+
+
+        </script>
+        </font>
+        </center>
+    </body>
+</html>

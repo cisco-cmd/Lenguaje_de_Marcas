@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 3 JavaScript II Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+        <script language="JavaScript">
+
+            var num1= prompt("Escriba el primer número");
+            var num2= prompt("Escriba el segundo número");
+
+
+            var suma=parseInt(num1)+parseInt(num2)
+
+            var dif=parseInt(num1)-parseInt(num2)
+
+            var dif1=parseInt(num2)-parseInt(num1)
+
+            var prod=parseInt(num1)*parseInt(num2)
+
+            var div=parseInt(num1)/parseInt(num2)
+
+            var div1=parseInt(num2)/parseInt(num1)
+
+            document.write("<center><h1 style=color:#4db7e1;font-family:verdana;> Juan Carlos Navidad García </h1> </center><hr>");
+
+            document.write ("<table border=1 cellpadding=10 cellspacing=0>");
+
+            document.write ("<tr bgcolor=#ababab>");
+                document.write ("<th>");
+                    document.write("Operaciones");
+                document.write ("</th>");
+                document.write ("<th style=text-align:left;>");
+                    document.write ("Num1: "+num1+", Num2: "+num2);
+                document.write ("</th>");
+            document.write ("</tr>");
+
+            document.write ("<tr>");
+                document.write ("<td style=text-align:center;>");
+                    document.write("Suma");
+                document.write ("</td>");
+                document.write ("<td>");
+                    document.write(num1+" + "+num2+" = "+suma);
+                document.write ("</td>");
+            document.write ("</tr>");
+
+            document.write ("<tr>");
+                document.write ("<td style=text-align:center;>");
+                    document.write("Resta");
+                document.write ("</td>");
+                document.write ("<td>");
+
+                    if (num1>num2) {
+
+                        document.write(num1+" - "+num2+" = "+dif);
+
+                        }
+
+                        else{
+
+                        document.write(num2+" - "+num1+" = "+dif1);
+
+                        }
+
+                document.write ("</td>");
+            document.write ("</tr>");
+
+            document.write ("<tr>");
+                document.write ("<td style=text-align:center;>");
+                    document.write("Multiplicación");
+                document.write ("</td>");
+                document.write ("<td>");
+                    document.write(num1+" x "+num2+" = " +prod);
+                document.write ("</td>");
+            document.write ("</tr>");
+
+            document.write ("<tr>");
+                document.write ("<td style=text-align:center;>");
+                    document.write("División");
+                document.write ("</td>");
+                document.write ("<td>");
+                    
+                    if (num1>num2) {
+
+                        document.write(num1+" / "+num2+" = " +div.toFixed(2));
+
+                        }
+
+                        else{
+
+                            document.write(num2+" / "+num1+" = " +div1.toFixed(2));
+
+                        }
+
+                document.write ("</td>");
+            document.write ("</tr>");
+
+            document.write ("<tr bgcolor=#ababab>");
+                document.write ("<th colspan=2 style=text-align:center;>");
+                    document.write("Juan Carlos Navidad");
+                document.write ("</th>");
+            document.write ("</tr>");
+
+            document.write ("</table>");
+
+        </script>
+        </font>
+        </center>
+    </body>
+</html>
