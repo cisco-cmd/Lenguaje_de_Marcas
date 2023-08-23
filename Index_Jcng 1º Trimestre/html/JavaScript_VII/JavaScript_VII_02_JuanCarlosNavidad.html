@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 2 JavaScript VII Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body bgcolor="#B0B0B0">
+        <center>
+        <font face="calibri">
+
+        <h1 style="color:blue">Juan Carlos Navidad García</h1>
+        <hr>
+        <br>
+        <center>
+        <form name="frases" id="frases">
+            <table border="0">
+                <tr>
+                    <td style="color:blue">Frase:</td>
+                    <td><input type="text" size="40" name="frase" id="frase"></td>
+                </tr>
+                <tr>
+                    <td style="color:blue">Color:</td>
+                    <td><select name ="color" id="color">
+                        <option value="Black">Negro</option>
+                        <option value="Blue" id="2">Azul</option>
+                        <option value="Yellow" id="3">Amarillo</option>
+                        <option value="Grey" id="4">Gris</option>
+                        <option value="Red" id="5">Rojo</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td style="color:blue">Tipo de letra:</td>
+                    <td><select name ="letra" id="letra">
+                        <option value="Verdana">Verdana</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Courier">Courier</option>
+                        <option value="Calibri">Calibri</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td style="color:blue">Color de fondo:</td>
+                    <td><select name ="fondo" id="fondo">
+                        <option value="Blue">Azul</option>
+                        <option value="Red" id="2">Rojo</option>
+                        <option value="Yellow" id="3">Amarillo</option>
+                        <option value="Grey" id="4">Gris</option>
+                        <option value="Orange" id="5">Naranja</option>
+                    </select></td>
+                </tr>
+            </table><br /><br />
+            <hr>
+
+            <input type="button" name="btn1" value="Enviar" onclick="formulario()">
+            <input type="button" name="btn2" value="Borrar" onclick="borrar()">
+
+        </form>
+
+    </center>
+            
+        <script language="JavaScript">
+
+            function formulario(){
+
+                var color = (document.getElementById('color').value);
+                var letra = (document.getElementById('letra').value);
+                var fondo = (document.getElementById('fondo').value);
+                var frase = (document.getElementById('frase').value);
+
+                document.write("<body bgcolor="+fondo+"><font face="+letra+"><p style=color:"+color+">"+frase+"</p></font></body>");
+
+            }
+
+            function borrar(){
+
+                let borrar1 = document.getElementById('frases');
+
+                borrar1.reset();
+
+            }
+
+
+
+
+        </script>
+        </font>
+    </body>
+</html>

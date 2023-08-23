@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 1 JavaScript IV Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+
+        <h1>Juan Carlos Navidad García</h1>
+        <hr>
+
+    </center>
+            
+        <script language="JavaScript">
+
+            let cont = 0;
+            let ast=("*");
+
+            let num = Number(prompt("Escriba un número"));
+
+            document.write ("<table border=0 align=center>");
+            while(cont < num){
+
+                cont++
+
+                var asts=ast.repeat(cont)
+                
+                if (asts.length%2==0){
+
+                    document.write ("<tr>");
+                    document.write ("<td>");
+                    document.write("<span>"+cont+". <span style=color:blue;>"+asts+"</span></span><br>");
+                    document.write ("</tr>");
+                    document.write ("</td>");
+                }
+                else{
+                    document.write ("<tr>");
+                    document.write ("<td>");
+                    document.write("<span>"+cont+". <span style=color:red;>"+asts+"</span></span><br>");
+                    document.write ("</tr>");
+                    document.write ("</td>");
+
+                }
+                              
+            }
+
+            document.write ("</table>");  
+
+        </script>
+        </font>
+    </body>
+</html>

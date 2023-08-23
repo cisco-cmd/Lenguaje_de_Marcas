@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Factorial Juan Carlos Navidad</title>
+    <script type="text/javascript">
+
+
+        function factorial(){
+        let fact=[];
+        let mul=Number(1);
+        let num1=Number(document.getElementById('fact').value);
+        
+        for (i=1;i<num1+1;i++) {
+
+            fact.push(i);
+
+        }
+
+        for (let x=0;x<Number(fact.length);x++){
+            
+            mul*=fact[x];
+        
+        }
+
+
+        let fact1=fact.join(' x ');
+
+        document.factor.fact_ob.value = fact1+" = "+mul;
+
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <font face="calibri">
+
+            <h1>Juan Carlos Navidad García</h1>
+            <hr>
+
+
+            <form name="factor">
+                <table border="1">
+                    <tr>
+                        <td>Número a factorizar:</td>
+                        <td><input type="number" name="fact" id="fact"></td>
+                    </tr>
+                    <tr>
+                        <td colspan "2"><input type="button" name="btn1" value="Enviar" onclick="factorial()"></td>
+                    </tr>
+                </table><br /><br /><br />
+
+
+                <table border="1">
+
+                    <tr>
+                        <td>Número factorizado:</td>
+                        <td><input type="text" name="fact_ob" id="fact_ob"></td>
+                    </tr>
+                    
+                </table>
+            </form>
+    </center>
+</body>
+
+</html>

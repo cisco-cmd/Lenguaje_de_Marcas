@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario Avanzado Juan Carlos Navidad García</title>
+  <meta charset="utf-8" />
+</head>
+<body style="background-color:#ffcbcb">
+ 
+  <h1 style = 
+  "font-family: verdana;
+  font-size:25;"> <img src="../img/coche.png" width="100" heigth="25" hspace="10" align="center">
+  Formulario Avanzado Juan Carlos Navidad García</h1>
+  
+
+<br>
+
+<FORM style="font-family:Verdana; font-size: 15px;" method=post action="mailto:marincarbajo@loscerros.org" >
+
+    <fieldset>
+        <legend>Información Coche</legend>
+        <br>
+        Matrícula: <input type="text" name="matricula" size="8" placeholder="NNNN-AAA" required>
+        
+        <br><br><br>
+        
+        <p>Marca: 
+            <select name ="Marca">
+                <optgroup label="Alemania">
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                </optgroup>
+                <optgroup label="Japón">
+                    <option value="Honda">Honda</option>
+                    <option value="Mazda">Mazda</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Nissan">Nissan</option>
+                </optgroup>
+                <optgroup label="Francia">
+                    <option value="Citroen">Citroen</option>
+                    <option value="Peugot">Peugot</option>
+                    <option value="Renault">Renault</option>
+                </optgroup>
+                <optgroup label="Italia">
+                    <option value="Alfa">Alfa Romeo</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Lancia">Lancia</option>
+                </optgroup>
+
+            
+            </select>
+        </p>
+
+        <br><br>
+        
+        Modelo: <input type="text" name="Modelo" size="30">
+
+        <br><br><br><br>
+
+        Fecha de matrícula: <input type="date" name="fecha_matricula" required>
+
+        <br><br><br>
+
+        <p>Combustible: <input type="radio" name="gasoil"> 
+            G - Gasolina <input type="radio" name="gasoil"> 
+            D - Diesel <input type="radio" name="gasoil"> 
+            H - Híbrido <input type="radio" name="gasoil">
+            E - Eléctrico 
+        </p>
+         
+        <br>
+
+        <p>Color: 
+            <select name ="Combustible">
+            <option value="Negro">Negro</option>
+            <option value="Blanco">Blanco</option>
+            <option value="Rojo">Rojo</option>
+            <option value="Azul">Azul</option>
+            <option value="Beige/Negro">Beige/Negro</option>
+            <option value="Azul/Blanco">Azul/Blanco</option>
+            </select>
+        </p>
+
+        <br>
+
+        <p>Potencia (5-600):
+            <label for="pot">Potencia:</label>
+            <input type="range" name="pot" value="5" min="5" max="600">
+        </p>
+           
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Enviar Datos">
+    <input type="reset" value="Limpiar Formulario">
+
+
+</form>
+</table>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Práctica 3 JavaScript VII Juan Carlos Navidad</title>
+    <script type="text/javascript">
+
+
+        function asteriscos(){
+
+            var color = (document.getElementById('color').value);
+            let cont = 0;
+            let ast=("*");
+
+            let num = Number(document.getElementById('numero').value);
+
+            while(cont < num){
+
+                cont++
+
+                var asts=ast.repeat(cont);
+
+
+            }
+            document.write("<p> Van a reproducirse "+num+" asterísctos de color "+color+": <p style=color:"+color+">"+asts+"</p></p>");
+        }
+
+    </script>
+</head>
+
+<body>
+    <center>
+        <font face="calibri">
+
+            <h1>Juan Carlos Navidad García</h1>
+            <hr>
+
+
+            <form name="aster">
+
+            Elija un número:
+          
+                            <select name ="numero" id="numero">
+                            <option value="1" id="1">1</option>
+                            <option value="2" id="2">2</option>
+                            <option value="3" id="3">3</option>
+                            <option value="4" id="4">4</option>
+                            <option value="5" id="5">5</option>
+                            </select>
+                            <select name ="color" id="color">
+                                <option value="Black">Negro</option>
+                                <option value="Blue" id="2">Azul</option>
+                                <option value="Yellow" id="3">Amarillo</option>
+                                <option value="Grey" id="4">Gris</option>
+                                <option value="Red" id="5">Rojo</option>
+                            </select>
+                            <br><br>
+                            <input type="button" name="btn1" value="Enviar" onclick="asteriscos()">
+                            <br><br>
+                            
+                            
+            </form>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 2 JavaScript IV Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+
+        <h1>Juan Carlos Navidad García</h1>
+        <hr>
+
+        </center>
+            
+        <script language="JavaScript">
+
+            let cont=0;
+            let res=0;
+            let num1= Number(prompt("Escriba un número"));
+
+            document.write ("<table border=1 align=center width= 300 cellpadding=5 cellspacing=0 style=text-align:center;>");
+
+                document.write ("<tr>");
+
+                    document.write("<th colspan=5 bgcolor=#D2D2D2>");
+                        document.write("Tabla de multiplicar del "+num1);
+                    document.write("</th>");
+
+                document.write("</tr>");
+
+                do{
+
+                    cont++
+
+                    res=num1*cont
+
+                    if(cont%2==0){
+
+                        document.write ("<tr bgcolor=#D2D2D2>");
+
+                            document.write ("<td>");
+                                document.write(num1);
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (" x ");
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (cont);
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (" = ");
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (res);
+                            document.write ("</td>");
+
+                        document.write ("</tr>")
+                        }
+                    else{
+
+                        document.write ("<tr>");
+
+                            document.write ("<td>");
+                                document.write(num1);
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (" x ");
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (cont);
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (" = ");
+                            document.write ("</td>");
+
+                            document.write ("<td>");
+                                document.write (res);
+                            document.write ("</td>");
+
+                        document.write ("</tr>")
+
+                        }
+
+                    }
+                    
+                    while (cont<=9)
+
+            document.write ("</table>");
+
+
+        </script>
+        </font>
+    </body>
+</html>

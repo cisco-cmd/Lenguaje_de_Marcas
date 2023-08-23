@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario Juan Carlos Navidad García</title>
+  <meta charset="utf-8" />
+</head>
+<body style="background-color:#c1c1c1">
+ 
+  <h1 style = 
+  "font-family: verdana;
+  font-size:25;"> Envío Datos Personales de Juan Carlos Navidad García</h1>
+
+<br>
+
+<FORM style="font-family:Verdana; font-size: 15px;" method=post action="mailto:marincarbajo@loscerros.org" >
+
+    <table style="border-color:black; border-style: solid; border-width:5" cellpadding="5"; style="font-family:Verdana; width: 1000;";>
+
+        <tr>
+
+            <td>D.N.I:</td>
+            <td>
+                <input type="text" name="dni" size="15" placeholder="XXXXXXXX-X">
+            </td>
+        
+        </tr>
+        <tr>
+
+            <td>Nombre:</td>
+            <td>
+                <input type="text" name="nombre" size="50" required>
+            </td>
+        
+        </tr>
+        <tr>
+
+            <td>Dirección:</td>
+            <td>
+                <input type="text" name="dirección" size="50">
+            </td>
+        
+        </tr>
+        <tr>
+
+            <td>Fecha de Nacimiento:</td>
+            <td>
+                <input type="date" name="fecha" required>
+            </td>
+        
+        </tr>
+        <tr>
+
+            <td>Sexo</td>
+            <td>
+                Masculino: <input type="radio" name="sexo">
+                <br>
+                Femenino: <input type="radio" name="sexo">
+            </td>
+            </td>
+        
+        </tr>
+        <tr>
+
+            <td>Puesto Solicitado:</td>
+            <td>
+                <select name ="Puesto Solicitado">
+                <option value="Administrativo">Administrativo</option>
+                <option value="Conserje">Conserje</option>
+                <option value="Programador">Programador</option>
+                <option value="Analista">Analista</option>
+                <option value="Jefe_Proyecto">Jefe de Proyecto</option>
+                <option value="Cord_Proyectos">Coordinador de proyectos</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+
+            <td>Comentarios:</td>
+            <td>
+                <textarea rows="8" name="Comentarios"></textarea>
+            </td>
+        
+        </tr>
+        <tr>
+
+            <td>Foto:</td>
+            <td>
+                <input type="file" value="Seleccionar archivo">
+            </td>
+        
+        </tr>
+  
+    </table>
+
+    <br>
+    <input type="submit" value="Enviar Datos">
+    <input type="reset" value="Limpiar Formulario">
+
+</form>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Base y Exponente con Formulario Juan Carlos Navidad</title>
+    <script type="text/javascript">
+
+
+        function elevar() {
+            var base = Number(document.getElementById('base').value);
+            var exp = Number(document.getElementById('exp').value);
+            let cont = 1;
+
+            for (let i = 0; i < exp; i++) {
+
+                cont *= base;
+
+            }
+
+            document.base_exp.base_ob.value = base;
+            document.base_exp.exp_ob.value = exp;
+            document.base_exp.res.value = cont;
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <center>
+        <font face="calibri">
+
+            <h1>Juan Carlos Navidad García</h1>
+            <hr>
+
+
+            <form name="base_exp">
+                <table border="1">
+                    <tr>
+                        <td>Base:</td>
+                        <td><input type="number" name="base" id="base"></td>
+                    </tr>
+                    <tr>
+                        <td>Exponente:</td>
+                        <td><input type="number" name="exp" id="exp"></td>
+                    </tr>
+                    <tr>
+                        <td colspan "2"><input type="button" name="btn1" value="Enviar" onclick="elevar()"></td>
+                    </tr>
+                </table><br /><br /><br />
+
+
+
+
+                <table border="1">
+                    <tr>
+                        <td>Base:</td>
+                        <td><input type="text" name="base_ob" id="base_ob"></td>
+                    </tr>
+                    <tr>
+                        <td>Exponente:</td>
+                        <td><input type="text" name="exp_ob" id="exp_ob"></td>
+                    </tr>
+                    <tr>
+                        <td>Resultado potencia:</td>
+                        <td><input type="text" name="res" id="res"></td>
+                    </tr>
+                </table>
+            </form>
+    </center>
+</body>
+
+</html>

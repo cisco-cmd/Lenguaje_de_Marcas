@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 2 JavaScript V Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+
+        <h1>Juan Carlos Navidad García</h1>
+        <hr>
+
+    
+            
+        <script language="JavaScript">
+
+            
+            var num1= Number(prompt("Escriba el primer número de la operación"));
+            var num2= Number(prompt("Escriba el segundo número de la operación"));
+
+
+            function sumar(num1,num2){
+
+                var suma=Number(num1)+Number(num2);
+
+            return num1+"+"+num2+"="+suma+"<br>";
+
+            }
+
+
+
+            function restar(num1,num2){
+
+
+            if (num1<num2) {
+
+                var dif1=num2-num1;
+
+                return num2+"-"+num1+"="+dif1+"<br>";
+
+            }
+
+            else {
+
+                var dif=num1-num2;
+
+                return num1+"-"+num2+"="+dif+"<br>";
+
+            }
+
+
+
+
+            }
+
+            function multiplicar(num1,num2){
+
+                var prod=parseInt(num1)*parseInt(num2);
+
+            return (num1+"x"+num2+"="+prod+"<br>");
+
+            }
+
+
+
+            
+            function dividir(num1,num2){
+
+
+                if (num1<num2) {
+
+                    var div1=num2/num1;
+
+                    return num2+"/"+num1+"="+div1.toFixed(2)+"<br>";
+
+                }
+
+                else{
+
+                    var div=num1/num2;
+
+                    return num1+"/"+num2+"="+div.toFixed(2)+"<br>";
+
+                }
+                }
+
+
+
+                document.write("<table border=1 cellpadding=10 cellspacing=0>");
+
+                    document.write("<tr bgcolor=#ababab>");
+                    document.write("<th>");
+                    document.write("Operaciones");
+                    document.write("</th>");
+                    document.write("<th style=text-align:left;>");
+                    document.write("Num1: " + num1 + ", Num2: " + num2);
+                    document.write("</th>");
+                    document.write("</tr>");
+
+                    document.write("<tr>");
+                    document.write("<td style=text-align:center;>");
+                    document.write("Suma");
+                    document.write("</td>");
+                    document.write("<td>");
+                    document.write(sumar(num1, num2));
+                    document.write("</td>");
+                    document.write("</tr>");
+
+                    document.write("<tr>");
+                    document.write("<td style=text-align:center;>");
+                    document.write("Resta");
+                    document.write("</td>");
+                    document.write("<td>");
+                    document.write(restar(num1, num2));
+                    document.write("</td>");
+                    document.write("</tr>");
+
+                    document.write("<tr>");
+                    document.write("<td style=text-align:center;>");
+                    document.write("Multiplicación");
+                    document.write("</td>");
+                    document.write("<td>");
+                    document.write(multiplicar(num1, num2));
+                    document.write("</td>");
+                    document.write("</tr>");
+
+                    document.write("<tr>");
+                    document.write("<td style=text-align:center;>");
+                    document.write("División");
+                    document.write("</td>");
+                    document.write("<td>");
+                    document.write(dividir(num1, num2));
+                    document.write("</td>");
+                    document.write("</tr>");
+
+                document.write("</table>");
+
+        </script>
+        </center>
+        </font>
+    </body>
+</html>

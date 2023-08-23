@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>JavaScript VIII Juan Carlos Navidad</title>
+    <meta charset="UTF-8">
+
+</head>
+<script type="text/javascript" charset="UTF-8">
+
+    function felicita() {
+
+
+        var nombre = document.getElementById('nombre').value;
+        var sexo = document.getElementById('sexo').value;
+        let edad = Number(document.getElementById('edad').value);
+
+        if (nombre==false || edad==false){return;};
+
+        if (edad < 0) {
+
+            alert("La edad introducida no es correcta, inténtelo de nuevo");
+
+            return;
+
+        };
+
+        if (edad > 18) {
+
+            alert("Ya no se tienen años para celebrar el cumple con tartas");
+
+            return;
+
+        };
+
+        document.write("<h1 style=color:#4db7e1;font-family:verdana;> Feliz cumpleaños " + nombre + " !!! </h1>");
+
+        if (sexo == "Masculino") {
+
+            for (let i = 0; i < edad; i++) {
+
+                let i = document.write("<img src=Vela_M.JPG width=100px height=200px>");
+
+            };
+
+        };
+
+        if (sexo == "Femenino") {
+
+            for (let i = 0; i < edad; i++) {
+
+                let i = document.write("<img src=Vela_F.JPG width=100px height=200px>");
+
+            };
+
+        };
+
+        document.write("<br><br><br>"+"<input type='button' value='Volver al formulario' onclick='location.reload()'>");
+
+        document.write("</center>");
+
+    };
+
+    function borrar() {
+
+        document.getElementById("cumpleaños").reset();
+
+    };
+
+
+</script>
+
+<body bgcolor="#dedede" style="font-family:Verdana, Geneva, Tahoma, sans-serif">
+
+    <H1 style="color:#4db7e1">FORMULARIO DE FELICITACIÓN</H1>
+
+    <hr>
+
+    <form name="cumpleaños" id="cumpleaños">
+        <table border="0">
+
+            <tr>
+                <td style="color:#4db7e1">Nombre: <input type="text" name="nombre" id="nombre" required></td>
+            </tr>
+
+            <tr>
+                <td style="color:#4db7e1">Sexo: <select name="sexo" id="sexo" required>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select>
+            </tr>
+
+            <tr>
+                <td style="color:#4db7e1">Edad: <input type="number" name="edad" id="edad" required></td>
+            </tr>
+
+        </table>
+
+        <hr>
+
+        <input type="button" name="Felicita" value="Felicita !!" onclick="felicita()">
+        <input type="reset" name="borrar" value="Borrar" onclick="borrar()">
+
+    </form>
+
+</body>
+
+</html>

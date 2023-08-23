@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Práctica 3 JavaScript V Juan Carlos Navidad</title>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body>
+        <center>
+        <font face="calibri">
+
+        <h1>Juan Carlos Navidad García</h1>
+        <hr>
+
+    
+            
+        <script language="JavaScript">
+            
+
+            var num1= Number(prompt("Escriba un número para comprobar si es primo"));
+
+            function Primo(num1) {
+
+                if (num1 == 0 || num1 == 1 ){
+
+                    return "El número "+num1+" es neutro";
+
+                } 
+                
+                for (let x = 2; x <= num1 / 2; x++) {
+
+                    if (num1 % x == 0){ 
+                        
+                        return "El número "+num1+" no es primo";
+
+                    }
+
+                }
+                
+                return "El número "+num1+" es primo";
+            }
+
+            document.write (Primo(num1))
+
+        </script>
+        </center>
+        </font>
+    </body>
+</html>
