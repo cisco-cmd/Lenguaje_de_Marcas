@@ -1,0 +1,116 @@
+.table_body3 {
+    background-color: #152b46db;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 60px white;
+    width: 500px;
+    height: 700px;
+    border-radius: 22px;
+    padding: 20px;
+    text-align: center;
+}
+
+.body3 {
+    font-family: verdana;
+    width: 100%;
+    background: url("img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 101%;
+    overflow-x: hidden;
+}
+
+.body2 {
+    background-color: #43556dde;
+}
+
+.datos {
+    font-family: Century Gothic;
+    font-size: 12px;
+    padding-left: 10px;
+    color: white;
+    box-shadow: 5px 5px 60px white;
+    border-radius: 22px;
+    padding: 20px;
+}
+
+.table_body2 {
+    background-color: #162c48de;
+    border-style: solid;
+    font-family: Arial;
+    font-size: 19;
+    border: 5px solid #162c48de;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px white;
+}
+
+.carnet {
+    filter: drop-shadow(0px 1px 5px white);
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-top: 15px;
+    border-radius: 100px;
+    padding-right: 30px;
+}
+
+.abajo2 {
+    background-color: #162c48de;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: white;
+    padding-top: 0.5%;
+    width: 100%;
+    text-shadow: 2px 2px 20px white;
+}
+
+.abajo3 {
+    background-color: #162c48de;
+    width: 100%;
+    filter: drop-shadow(0px 1px 5px white);
+}
+
+.arriba2 {
+    background-color: #162c48de;
+    width: 100%;
+    filter: drop-shadow(0px 1px 5px #ffffff83);
+}
+
+.arriba3 {
+    background-color: #162c48de;
+    width: 100%;
+    filter: drop-shadow(0px 1px 5px #ffffff83);
+}
+
+.tr_body2 {
+    background-color: #b6cbea;
+}
+
+a:link {
+
+    font-size: 19px;
+    color: #152b46;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+a:visited {
+
+    color: #152b46;
+    font-style: italic;
+    font-family: system-ui;
+}
+
+a:active {
+
+    color: #2d4989;
+    font-family: system-ui;
+    font-family: verdana;
+}
+
+a:hover {
+
+
+    color: #2d4989;
+    font-weight: bold;
+    font-family: system-ui;
+}
