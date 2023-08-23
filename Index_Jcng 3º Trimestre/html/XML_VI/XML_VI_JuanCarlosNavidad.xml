@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XML_VI_JuanCarlosNavidad.xsl"?>
+<prediccion>
+    <origen>
+        <enlace>https://www.aemet.es/es/eltiempo/prediccion/municipios/lloret-de-mar-id17095</enlace>
+    </origen>
+    <nombre>Lloret de Mar</nombre>
+    <provincia>Girona</provincia>
+
+        <dia fecha="2023-05-09">
+            <prob_precipitacion periodo="00-24">0</prob_precipitacion>
+            <estado_cielo periodo="00-24" descripcion="Poco nuboso">12</estado_cielo>
+            <viento periodo="12-24">
+                <direccion>NO</direccion>
+                <velocidad>10</velocidad>
+            </viento>
+            <temperatura>
+                <maxima>23</maxima>
+                <minima>14</minima>
+            </temperatura>
+            <humedad_relativa>
+                <maxima>70</maxima>
+                <minima>70</minima>
+            </humedad_relativa>
+        </dia>
+
+        <dia fecha="2023-05-10">
+            <prob_precipitacion periodo="12-24">95</prob_precipitacion>
+            <estado_cielo periodo="12-24" descripcion="Nuboso con lluvia">24</estado_cielo>
+            <viento periodo="12-24">
+                <direccion>S</direccion>
+                <velocidad>10</velocidad>
+            </viento>
+            <temperatura>
+                <maxima>21</maxima>
+                <minima>15</minima>
+            </temperatura>
+            <humedad_relativa>
+                <maxima>90</maxima>
+                <minima>45</minima>
+            </humedad_relativa>
+        </dia>
+
+        <dia fecha="2023-05-11">
+            <prob_precipitacion periodo="12-24">100</prob_precipitacion>
+            <estado_cielo periodo="12-24" descripcion="Nuboso con tormenta">51</estado_cielo>
+            <viento periodo="12-24">
+                <direccion>SO</direccion>
+                <velocidad>10</velocidad>
+            </viento>
+            <temperatura>
+                <maxima>21</maxima>
+                <minima>13</minima>
+            </temperatura>
+            <humedad_relativa>
+                <maxima>85</maxima>
+                <minima>55</minima>
+            </humedad_relativa>
+        </dia>
+
+        <dia fecha="2023-05-12">
+            <prob_precipitacion>100</prob_precipitacion>
+            <estado_cielo descripcion="Muy nuboso con lluvia">25</estado_cielo>
+            <viento>
+                <direccion>S</direccion>
+                <velocidad>5</velocidad>
+            </viento>
+            <temperatura>
+                <maxima>20</maxima>
+                <minima>12</minima>
+            </temperatura>
+            <humedad_relativa>
+                <maxima>90</maxima>
+                <minima>55</minima>
+            </humedad_relativa>
+        </dia>
+
+    </prediccion>

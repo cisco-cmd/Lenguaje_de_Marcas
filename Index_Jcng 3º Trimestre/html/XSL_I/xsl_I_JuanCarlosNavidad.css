@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Signika+Negative:wght@600&display=swap');
+
+body {
+  background-color: #ffd102;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.titulo {
+
+  color: #504400;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  text-shadow: 2px 2px 20px #b89c01;
+
+}
+
+.hr1 {
+  border: 2px solid #504400;
+  width: 60%;
+}
+
+.nombre_autor {
+
+  font-size: 25px;
+  color: #504400;
+  text-transform: uppercase;
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+.opciones {
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  background: #ffd102;
+  width: 80%;
+  margin-top: 2%;
+  font-family: calibri;
+}
+
+.opcion {
+  display: inline-table;
+  border: 0;
+  background-color: #fffdf3;
+  opacity: 0.9;
+  padding: 15px;
+  height: 450px;
+  width: 500px;
+  margin: 5;
+  font-family: calibri;
+  border-radius: 8%;
+  box-shadow: 0px 0px 9px #a38b00;
+  
+}
+
+.desc {
+  text-align:left;
+}
+
+ul {
+  margin-left: 22%;
+  font-size: 20px;
+  color: #504400;
+
+  
+}
+
+.jardin {
+  height: 300px;
+  width: 100%;
+  box-shadow: 0px 0px 30px #ffffff;
+  
+}
+
+.perla {
+  height: 300px;
+  width: 50%;
+  box-shadow: 0px 0px 10px #000000;
+
+}
+
+.beso {
+  height: 300px;
+  width: 60%;
+  box-shadow: 0px 0px 10px #f0a400;
+
+}
+
+.noche {
+  height: 300px;
+  width: 100%;
+  box-shadow: 0px 0px 10px #003d6e;
+
+}
+
+.grito {
+  height: 300px;
+  width: 50%;
+  box-shadow: 0px 0px 10px #f0a400;
+
+}
+
+.memoria {
+  height: 300px;
+  width: 80%;
+  box-shadow: 0px 0px 10px #004a75;
+}
+
+.guernica {
+  height: 300px;
+  width: 100%;
+  box-shadow: 0px 0px 10px #444444;
+
+}
+
+.soleada {
+  height: 300px;
+  width: 90%;
+  box-shadow: 0px 0px 10px #774001;
+}
+
+.ola {
+  height: 300px;
+  width: 100%;
+  box-shadow: 0px 0px 10px #af7a08;
+}
+
+.meninas {
+  height: 300px;
+  width: 60%;
+  box-shadow: 0px 0px 10px #8b4f00;
+}

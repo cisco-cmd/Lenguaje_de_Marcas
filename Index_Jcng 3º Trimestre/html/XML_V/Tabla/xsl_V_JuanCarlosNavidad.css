@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comfortaa:wght@700&display=swap');
+
+body {
+  background-image: url(../img/fondo.gif);
+  font-family: 'Bruno Ace SC';
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(2px);
+  backdrop-filter: brightness(90%);
+}
+
+.titulo {
+
+  text-align: center;
+
+}
+
+.hr1 {
+  border: 2px solid #ffc800;
+  width: 95%;
+  border-radius: 18.8%;
+  box-shadow: inset 0 0 10px #ff0000, 0 0 10px #ff9100;
+}
+
+.cabecera {
+  width: 45%;
+  transition: 0.20s ease;
+  filter: drop-shadow(3px 3px 5px #ffbb00);
+
+}
+
+.cabecera:hover {
+  width: 45%;
+  filter: drop-shadow(3px 3px 5px #ffbb00);
+  transform: scale(105%);
+  transition: 0.20s ease;
+}
+
+
+.opciones {
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 2%;
+  font-family: 'Bruno Ace SC';
+  position: relative;
+}
+
+.sinopsis {
+
+  border: 0.9;
+  opacity: 0.9;
+  padding: 15px;
+  height: auto;
+  max-width: 45%;
+  margin: 5;
+  font-family: calibri;
+  border-radius: 20%;
+  background-color: #1d1535;
+  color: white;
+  box-shadow: inset 0 0 20px #8c00ff, 0 0 5px #2600bc ;
+  font-size:25px;
+  text-shadow: 2px 2px 2px #bdb6f377;
+
+}
+
+.portadas {
+
+  width: 150px;
+  height: 250px;
+  box-shadow: 0 0 30px white;
+  border-radius: 8%;
+  transition: 0.10s ease;
+  position: relative;
+
+}
+
+.portadas:hover {
+
+  width: 150px;
+  height: 250px;
+  box-shadow: 0 0 30px white;
+  border-radius: 8%;
+  transform: scale(102%);
+  transition: 0.20s ease;
+
+}
+
+.image {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+}
+
+.enlace2 {
+
+  font-size: 25px;
+  color: #ffc800;
+
+}
+
+.btn {
+  min-width: 350px;
+  min-height: 70px;
+  font-family: 'Bruno Ace SC';
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: bolder;
+  color: #9d4802;
+  background: linear-gradient(20deg, #ffd153 40%, rgb(255, 145, 0) 100%);
+  border: 6px solid #ff9100e7;
+  border-radius: 1000px;
+  outline: 0px solid #ffa32b;
+  box-shadow: 0px 0px 24px rgb(255, 198, 123);
+  text-shadow: 2px 2px 3px #ff6200e1;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  opacity: 0.89;
+  }
+
+.btn:hover{
+  color: #a8a8ff;
+  background: #1d1535;
+  transform: translateY(-6px);
+  outline: 6px solid #5d51ff31;
+  border: 6px solid #6a00ff;
+  transition: ease-in-out 0.3s ;
+  opacity: 0.89;
+  box-shadow: inset 0 0 20px #8c00ff, 0 0 35px #b8d6fc;
+  text-shadow: 2px 2px 3px #9b4fffe1;
+}
+
+table {
+
+  color: #fd980b;
+  text-align: center;
+
+}
+
+td {
+  border: solid 5px #351272;
+  border-radius: 2%;
+  background-color: #1d1535;
+  height: 10px;
+  font-size: 25px;
+  box-shadow: inset 0 0 15px #8c00ff, 0 0 5px #2600bc;
+  padding: 2%;
+}
+
+th {
+  border: solid 5px #351272;
+  border-radius: 2%;
+  background-color: #1d1535;
+  font-size: 25px;
+  width: 10%;
+  box-shadow: inset 0 0 10px #8c00ff, 0 0 15px #2600bc;
+}
+
+.iframe1 {
+  position:relative;
+  visibility: hidden;
+  margin-top: 2%;
+  border:0px;
+  border-radius: 8%;
+  box-shadow: 0 0 50px #b8d6fc;
+
+}
+
+.framediv {
+  position:absolute;
+  top: 0%;
+  left:20%;
+  right: 20%;
+  backdrop-filter: blur(5px);
+  background-color: #1d153556;
+  width: 60%;
+  visibility: hidden;
+  height: 13%;
+  border-radius: 8%;
+  box-shadow: inset 0 0 50px #8c00ff, 0 0 50px #8c00ff;
+  border:1px solid #8c00ff96;
+
+}
+
+.cerrar {
+  position:relative;
+  cursor:pointer;
+  color:#6f00ff;
+  visibility: hidden;
+  font-size: 25px;
+  font-family:'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  user-select:none;
+  top:25%;
+  text-shadow: 2px 0 #6f00ff, -2px 0 #6f00ff, 0 2px #6f00ff, 0 -2px #6f00ff,
+  1px 1px #6f00ff, -1px -1px #6f00ff, 1px -1px #6f00ff, -1px 1px #6f00ff, 0px 0px 10px #a200ff;
+}
+
+.cerrardiv {
+  position: absolute;
+  cursor:pointer;
+  top:6%;
+  left: 95.3%;
+  border: 2px solid #bc6aff;
+  background-color: #ffffffb7;
+  border-radius: 50%;
+  width: 4%;
+  height: 7.5%;
+  box-shadow: inset 0 0 10px #8c00ff, 0 0 35px #b8d6fc;
+
+
+}
+
+.cerrardiv:active {
+  position: absolute;
+  cursor:pointer;
+  transform: scale(97%);
+  transition: ease-in-out 0.1s ;
+
+}

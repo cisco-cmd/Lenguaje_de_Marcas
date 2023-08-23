@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_V_JuanCarlosNavidad.xsl"?>
+<series>
+
+  <web ruta="https://www.bbc.co.uk/programmes/b006q2x0"> BBC: Doctor Who </web>
+
+  <cabecera>
+    <titulo>Personaje</titulo>
+    <imagen>Imagen</imagen>
+    <actor>Actor</actor>
+    <descripcion>Año</descripcion>
+    <web>Web</web>
+  </cabecera>
+
+  <serie numero="1">
+    <titulo>Primer doctor</titulo>
+    <imagen>1_doctor.jpg</imagen>
+    <actor>William Hartnell</actor>
+    <descripcion>Doctor anciano, cascarrabias y arrogantes.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Primer_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="2">
+    <titulo>Segundo doctor</titulo>
+    <imagen>2_doctor.jpg</imagen>
+    <actor>Patrick Troughton</actor>
+    <descripcion>Un sabio bastante loco, pero inteligente y astuto.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Segundo_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="3">
+    <titulo>Tercer doctor</titulo>
+    <imagen>3_doctor.jpg</imagen>
+    <actor>Jon Pertwee</actor>
+    <descripcion>Elegante, arrogante, pero con empatía.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Tercer_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="4">
+    <titulo>Cuarto doctor</titulo>
+    <imagen>4_doctor.jpg</imagen>
+    <actor>Tom Baker</actor>
+    <descripcion>Juvenil, con buen humor y adicto a las gominolas.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Cuarto_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="5">
+    <titulo>Quinto doctor</titulo>
+    <imagen>5_doctor.jpg</imagen>
+    <actor>Peter Davison</actor>
+    <descripcion>Sensible y vulnerable, muy educado y lozano.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Quinto_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="6">
+    <titulo>Sexto doctor</titulo>
+    <imagen>6_doctor.jpg</imagen>
+    <actor>Colin Baker</actor>
+    <descripcion>Petulante, egoísta y bastante narcisista.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Sexto_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="7">
+    <titulo>Séptimo doctor</titulo>
+    <imagen>7_doctor.jpg</imagen>
+    <actor>Sylvester McCoy</actor>
+    <descripcion>Oscuro, manipulador y retorcido.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/S%C3%A9ptimo_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="8">
+    <titulo>Octavo doctor</titulo>
+    <imagen>8_doctor.jpg</imagen>
+    <actor>Paul McGann</actor>
+    <descripcion>El más romántico y sensiblon, bastante humano.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Octavo_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="9">
+    <titulo>Noveno doctor</titulo>
+    <imagen>9_doctor.jpg</imagen>
+    <actor>Christopher Eccleston</actor>
+    <descripcion>Atormentado, traumatizado y cruel.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Noveno_Doctor"> Enlace </web2>
+  </serie>
+    <serie numero="10">
+    <titulo>Décimo doctor</titulo>
+    <imagen>10_doctor.jpg</imagen>
+    <actor>David Tennant</actor>
+    <descripcion>Bastante nervioso, con ganas de muchas aventuras.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/D%C3%A9cimo_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="11">
+    <titulo>Undécimo doctor</titulo>
+    <imagen>11_doctor.jpg</imagen>
+    <actor>Matt Smith</actor>
+    <descripcion>Elegante, con una gran mente y resolutivo.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Und%C3%A9cimo_Doctor"> Enlace </web2>
+  </serie>
+  <serie numero="12">
+    <titulo>Duodécimo doctor</titulo>
+    <imagen>12_doctor.jpg</imagen>
+    <actor>Peter Capaldi</actor>
+    <descripcion>Viejo y con malas pulgas, muy moral y formal.</descripcion>
+    <web2 enlace="https://es.wikipedia.org/wiki/Duod%C3%A9cimo_Doctor"> Enlace </web2>
+  </serie>
+</series>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_I_JuanCarlosNavidad.xsl"?>
+<obras>
+  <caption>Cuadros Juan Carlos Navidad</caption>
+<cabecera>
+<titulo>Titulo</titulo>
+<autor>Autor</autor>
+<nacionalidad>Nacionalidad</nacionalidad>
+<año>Año</año>
+<estilo>Estilo</estilo>
+</cabecera>
+  <cuadro numero="1">
+    <titulo>El Jardín de las delicias</titulo>
+    <autor>El Bosco</autor>
+    <nacionalidad>Neerlandés</nacionalidad>
+    <año>1500-1505</año>
+    <estilo>Renacimiento</estilo>
+    <imagen>El_jardín_de_las_Delicias,_de_El_Bosco.jpg</imagen>
+    <clase>jardin</clase>
+  </cuadro>
+ <cuadro numero="2">
+    <titulo>La joven de la perla</titulo>
+    <autor>Johannes Vermeer</autor>
+    <nacionalidad>Neerlandés</nacionalidad>
+    <año>1665</año>
+    <estilo>Barroco holandés</estilo>
+    <imagen>Meisje_met_de_parel.jpg</imagen>
+    <clase>perla</clase>
+  </cuadro>
+  <cuadro numero="3">
+    <titulo>El Beso</titulo>
+    <autor>Gustav Klimt</autor>
+    <nacionalidad>Austriaco</nacionalidad>
+    <año>1907-1908</año>
+    <estilo>Art Nouveau</estilo>
+    <imagen>the-kiss-1908(1).jpg!Large.jpg</imagen>
+    <clase>beso</clase>
+  </cuadro>
+  <cuadro numero="4">
+    <titulo>La noche estrellada</titulo>
+    <autor>Vincent van Gogh</autor>
+    <nacionalidad>Neerlandés</nacionalidad>
+    <año>1889</año>
+    <estilo>Postimpresionismo</estilo>
+    <imagen>orig_64571-750x430.jpg</imagen>
+    <clase>noche</clase>
+  </cuadro>
+  <cuadro numero="5">
+    <titulo>El grito</titulo>
+    <autor>Edvard Munch</autor>
+    <nacionalidad>Noruego</nacionalidad>
+    <año>1893</año>
+    <estilo>Expresionismo</estilo>
+    <imagen>The_Scream_by_Edvard_Munch,_1893_-_Nasjonalgalleriet.png</imagen>
+    <clase>grito</clase>
+  </cuadro>
+  <cuadro numero="6">
+    <titulo>La persistencia de la memoria</titulo>
+    <autor>Salvador Dalí</autor>
+    <nacionalidad>Español</nacionalidad>
+    <año>1931</año>
+    <estilo>Surrealismo</estilo>
+    <imagen>the-persistence-of-memory-1931.jpg!Large.jpg</imagen>
+    <clase>memoria</clase>
+  </cuadro>
+  <cuadro numero="7">
+    <titulo>Guernica</titulo>
+    <autor>Pablo Picasso</autor>
+    <nacionalidad>Español</nacionalidad>
+    <año>1937</año>
+    <estilo>Cubismo</estilo>
+    <imagen>DE00050.jpg</imagen>
+    <clase>guernica</clase>
+  </cuadro>
+  <cuadro numero="8">
+    <titulo>Mañana soleada</titulo>
+    <autor>Edward Hopper</autor>
+    <nacionalidad>Estadounidense</nacionalidad>
+    <año>1942</año>
+    <estilo>Realismo</estilo>
+    <imagen>edward-hopper-morning_sun.jpg</imagen>
+    <clase>soleada</clase>
+  </cuadro>
+  <cuadro numero="9">
+    <titulo>La gran ola de Kanagawa</titulo>
+    <autor>Katsushika Hokusai</autor>
+    <nacionalidad>Japonés</nacionalidad>
+    <año>1833</año>
+    <estilo>Ukiyo-e</estilo>
+    <imagen>_121270137_gettyimages-584047706.jpg</imagen>
+    <clase>ola</clase>
+  </cuadro>
+    <cuadro numero="10">
+    <titulo>Las Meninas</titulo>
+    <autor>Diego Velázquez</autor>
+    <nacionalidad>Español</nacionalidad>
+    <año>1656</año>
+    <estilo>Barroco</estilo>
+    <imagen>Las_Meninas_01.jpg</imagen>
+    <clase>meninas</clase>
+  </cuadro>
+</obras>
