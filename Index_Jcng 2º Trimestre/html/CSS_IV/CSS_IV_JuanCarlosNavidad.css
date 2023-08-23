@@ -1,0 +1,103 @@
+.titulo{
+    color:#0071c7;
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    background-color: aliceblue;
+    font-family: system-ui;
+}
+
+
+.boton1{
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:aliceblue;
+    background-color: #0071c7;
+    border-radius: 50%;
+    border: 3px solid #014171;
+    
+}
+
+.boton2{
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    background-color: #ec4b4b;
+    border-radius: 15px;
+    border: 3px solid #710101;
+
+}
+
+.boton2:hover{
+
+    background-image:url(img/infotechnology-logo.jpg);
+    background-repeat:no-repeat;
+    height:100px;
+    width:100px;
+    background-position:center;
+    color:#ffffff00;
+    font-size: 15px;
+
+}
+
+
+.boton3{
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#023f10;
+    background-color: #acec4b;
+    border: 3px solid #019b7f;
+
+}
+.boton3:hover{
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    background-color: #0071c700;
+    border: 3px solid #014171;
+
+}
+
+.boton4{
+
+    background-image:url(img/23365.png);
+    background-repeat:no-repeat;
+    height:100px;
+    width:100px;
+    background-position:center;
+    color:#ffffff00;
+    font-size: 30px;
+
+}
+
+.boton5{
+
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#515122;
+    background-color: #ffeb68;
+    border-radius: 15px;
+    border: 3px solid #4e7101;
+    position:static;
+
+}
+
+.botones{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.iframe{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

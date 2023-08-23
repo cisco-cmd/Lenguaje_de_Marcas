@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 1 DIV II</title>
+        <link rel="stylesheet" href="Ejercicio_I_Formularios_I_JuanCarlosNavidad.css">
+    </head>
+    <body>
+        <header class="titulo">Formulario de contacto</header>
+        <hr class="hr2">
+        <form class="form">
+            <h2>Contacta con nosotros:</h2>
+            <p type="Nombre:"><input class="input1" type="text" placeholder="Escriba aquí su nombre..." required></input></p>
+            <p type="Apellidos:"><input class="input1" type="text" placeholder="Escriba aquí sus apellidos..." required></input></p>
+            <p type="Sexo:">
+                <div class="sexo">
+                    <label style="float:left; margin-right:30px">Hombre<input type="radio" name="sexo" value="hombre" required></label>
+                    <label style="float:left">Mujer<input type="radio" name="sexo" value="mujer" required></label>
+                </div>
+                </p>
+            <p type="Ciudad:"><input class="input1" type="text" placeholder="Escriba aquí su ciudad habitual..." required></input></p>
+
+            <p type="Provincia:">
+                <div class="selector">
+                <select class="provincia" name="Provincia" required>
+                    <option value="" selected>Elija una provincia</option>
+                    <option value="Álava">Álava</option>
+                    <option value="Albacete">Albacete</option>
+                    <option value="Alicante">Alicante</option>
+                    <option value="Almería">Almería</option>
+                    <option value="Asturias">Asturias</option>
+                    <option value="Ávila">Ávila</option>
+                    <option value="Badajoz">Badajoz</option>
+                    <option value="Baleares">Baleares</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Burgos">Burgos</option>
+                    <option value="Cáceres">Cáceres</option>
+                    <option value="Cádiz">Cádiz</option>
+                    <option value="Cantabria">Cantabria</option>
+                    <option value="Castellón">Castellón</option>
+                    <option value="Ceuta">Ceuta</option>
+                    <option value="Ciudad Real">Ciudad Real</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Cuenca">Cuenca</option>
+                    <option value="Gerona/Girona">Gerona/Girona</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Guadalajara">Guadalajara</option>
+                    <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Huesca">Huesca</option>
+                    <option value="Jaén">Jaén</option>
+                    <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Las Palmas">Las Palmas</option>
+                    <option value="León">León</option>
+                    <option value="Lérida/Lleida">Lérida/Lleida</option>
+                    <option value="Lugo">Lugo</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Málaga">Málaga</option>
+                    <option value="Melilla">Melilla</option>
+                    <option value="Murcia">Murcia</option>
+                    <option value="Navarra">Navarra</option>
+                    <option value="Orense/Ourense">Orense/Ourense</option>
+                    <option value="Palencia">Palencia</option>
+                    <option value="Pontevedra">Pontevedra</option>
+                    <option value="Salamanca">Salamanca</option>
+                    <option value="Segovia">Segovia</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Soria">Soria</option>
+                    <option value="Tarragona">Tarragona</option>
+                    <option value="Tenerife">Tenerife</option>
+                    <option value="Teruel">Teruel</option>
+                    <option value="Toledo">Toledo</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Valladolid">Valladolid</option>
+                    <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                    <option value="Zamora">Zamora</option>
+                    <option value="Zaragoza">Zaragoza</option>
+                </select>
+            </div>
+                </p>
+
+            <p type="Correo:"><input class="input1" type="email" id="email" name="email" placeholder="Escriba aquí su correo..." required></p>
+            <p type="Mensaje:"><textarea class="coment" name="comentarios" rows="10" cols="40" required>Escribe aquí su incidencia... </textarea></p>
+            <button type="submit">Enviar</button>
+          </form>
+        <div class="enlace1" style="margin-bottom:10%; margin-top: -5%; text-align:center"><b style="font-family: system-ui; bottom:0;">Enlace a la hoja de estilos: <a class="enlace" href="Ejercicio_I_Formularios_I_JuanCarlosNavidad.css">Ejercicio_I_Formularios_I_JuanCarlosNavidad.css</a></b></div>
+        <footer class="pie">Juan Carlos Navidad | 10/03/2023</footer>
+    </body>
+</html>
+

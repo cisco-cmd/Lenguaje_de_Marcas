@@ -1,0 +1,1131 @@
+html {
+
+    overflow-y: hidden;
+
+}
+
+body {
+    background-image: url(images/wallpaper.jpg);
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+
+/*Slider de imágenes*/
+.slide {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 150%;
+}
+
+.slide-open:checked+.slide-item {
+    position: relative;
+    opacity: 100;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    transition: 0.7s ease;
+    margin-top: -50px;
+    margin-bottom: 3%;
+}
+
+.slide-item img {
+    display: block;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    border-radius: 100%;
+}
+
+.slide-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.slide-control.prev {
+    left: 2%;
+}
+
+.slide-control.next {
+    right: 2%;
+}
+
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#slide-1:checked~.control-1,
+#slide-2:checked~.control-2 {
+    display: block;
+}
+
+.slide-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.slide-indicador li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slide-circulo {
+    color: #828282;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.slide-circulo:hover {
+    color: #aaaaaa;
+}
+
+#slide-1:checked~.control-1~.slide-indicador li:nth-child(1) .slide-circulo,
+#slide-2:checked~.control-2~.slide-indicador li:nth-child(2) .slide-circulo {
+    color: #1f1f1f;
+}
+
+/*Títulos*/
+
+.titulo1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 40px;
+
+}
+
+.titulo2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    position: relative;
+    padding-left: 36%;
+    top: -20px;
+
+}
+
+.titulo3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    margin-left: 30px;
+
+}
+
+/*Ocultar y mostrar en Javascript*/
+
+.sombra {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #575757;
+    position: static;
+    font-size: 35px;
+}
+
+.sombra1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: #ffffff00;
+    position: absolute;
+    font-size: 10px;
+    transition: all 0.15s ease;
+}
+
+.sombra_ {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: #575757;
+    position: static;
+    font-size: 40px;
+    transition: all 0.50s ease;
+}
+
+.sombra2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #686868;
+    position: relative;
+    font-size: 20px;
+    margin-left: -5px;
+    margin-top: 10000px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.sombra3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #686868;
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.50s ease;
+}
+
+.sombra4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #686868;
+    position: absolute;
+    font-size: 20px;
+    margin-left: -50px;
+    margin-bottom: 10%;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.sombra5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #686868;
+    position: relative;
+    right: -500px;
+    font-size: 20px;
+    margin-top: 10000px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+/*Diseño del javascript de los botones*/
+
+.seleccion1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0px;
+    font-weight: lighter;
+    font-display: initial;
+    color: #000000;
+    background: #000000;
+    margin-left: 10px;
+    position: relative;
+    bottom: 66px;
+    left: 180px;
+    width: 170px;
+    height: 0px;
+    user-select: none;
+
+}
+
+.seleccion2 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0px;
+    font-weight: lighter;
+    font-display: initial;
+    color: #000000;
+    background: #000000;
+    margin-left: 50px;
+    position: relative;
+    bottom: 66px;
+    left: 130px;
+    width: 150px;
+    height: 0px;
+    user-select: none;
+
+}
+
+.seleccion3 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0px;
+    font-weight: lighter;
+    font-display: initial;
+    color: #000000;
+    background: #000000;
+    margin-left: 10px;
+    position: relative;
+    bottom: 66px;
+    left: 45px;
+    width: 250px;
+    height: 0px;
+    user-select: none;
+
+}
+
+.seleccion4 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0px;
+    font-weight: lighter;
+    font-display: initial;
+    color: #000000;
+    background: #000000;
+    margin-left: 10px;
+    position: relative;
+    bottom: 66px;
+    left: 45px;
+    width: 300px;
+    height: 0px;
+    user-select: none;
+
+}
+
+
+/*Botones*/
+
+.boton1 {
+
+    background-image: url(images/finish-blue-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    position: relative;
+    top: -35px;
+
+}
+
+.boton1:hover {
+
+    background-image: url(images/finish-blue-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    box-shadow: inset 0 0 10px #00000080, 0 0 20px #0000007b;
+    position: relative;
+    top: -35px;
+
+}
+
+.boton2 {
+
+    background-image: url(images/finish-purple-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    position: relative;
+    top: -35px;
+
+
+}
+
+.boton2:hover {
+
+    background-image: url(images/finish-purple-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    box-shadow: inset 0 0 10px #00000080, 0 0 20px #0000007b;
+    position: relative;
+    top: -35px;
+
+}
+
+.boton3 {
+
+    background-image: url(images/finish-midnight-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    position: relative;
+    top: -35px;
+
+
+}
+
+.boton3:hover {
+
+    background-image: url(images/finish-midnight-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    box-Shadow: inset 0 0 10px #ffffff7b, 0 0 10px #0000007b;
+    position: relative;
+    top: -35px;
+
+}
+
+.boton3 {
+
+    background-image: url(images/finish-midnight-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    top: -35px;
+    box-shadow: inset 0 0 10px #ffffff7b, 0 0 10px #0000007b;
+
+}
+
+.boton4 {
+
+    background-image: url(images/finish-starlight-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    position: relative;
+    top: -35px;
+
+
+}
+
+.boton4:hover {
+
+    background-image: url(images/finish-starlight-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    box-shadow: inset 0 0 10px #00000080, 0 0 20px #0000007b;
+    position: relative;
+    top: -35px;
+
+}
+
+.boton5 {
+
+    background-image: url(images/finish-red-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    position: relative;
+    top: -35px;
+
+
+}
+
+.boton5:hover {
+
+    background-image: url(images/finish-red-202209.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff00;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: 0.20s ease;
+    box-shadow: inset 0 0 10px #00000080, 0 0 20px #0000007b;
+    position: relative;
+    top: -35px;
+
+}
+
+/*Diseño del primer botón del modelo*/
+
+.content-input input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input {
+    content: "Hola";
+    color: black;
+    position: relative;
+    padding: 0px 0 0px 5px;
+    cursor: pointer;
+}
+
+.content-input input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input input+i:before {
+    content: "iPhone 14";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input input[type=radio]+i {
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.content-input input[type=radio]:checked+i:before {
+    content: "iPhone 14";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input input[type=radio]:checked+i {
+    color: #1f1f1f;
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input input[type=radio]:checked+i:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/*Diseño del segundo botón del modelo*/
+
+.content-input1 input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input1 input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input1 {
+    position: relative;
+    margin-bottom: 70px;
+    padding: 5px 0 5px 100px;
+    cursor: pointer;
+}
+
+.content-input1 input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input1 input+i:before {
+    content: "iPhone 14 Plus";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input1 input[type=radio]+i {
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+
+.content-input1 input[type=radio]:checked+i:before {
+    content: "iPhone 14 Plus";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input1 input[type=radio]:checked+i {
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input1 input[type=radio]:checked+i:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Diseño del primer botón de la capacidad*/
+
+.content-input2 input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input2 input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input2 {
+    position: relative;
+    margin-bottom: 70px;
+    padding: 5px 0 5px 100px;
+    cursor: pointer;
+}
+
+.content-input2 input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input2 input+i:before {
+    content: "128";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input2 input[type=radio]+i {
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+
+.content-input2 input[type=radio]:checked+i:before {
+    content: "128";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input2 input[type=radio]:checked+i {
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input2 input[type=radio]:checked+i:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Diseño del segundo botón de la capacidad*/
+
+.content-input3 input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input3 input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input3 {
+    position: relative;
+    margin-bottom: 70px;
+    padding: 5px 0 5px 100px;
+    cursor: pointer;
+}
+
+.content-input3 input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input3 input+i:before {
+    content: "256";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input3 input[type=radio]+i {
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+
+.content-input3 input[type=radio]:checked+i:before {
+    content: "256";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input3 input[type=radio]:checked+i {
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input3 input[type=radio]:checked+i:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Diseño del tercer botón de la capacidad*/
+
+.content-input4 input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input4 input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input4 {
+    position: relative;
+    margin-bottom: 70px;
+    padding: 5px 0 5px 100px;
+    cursor: pointer;
+}
+
+.content-input4 input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input4 input+i:before {
+    content: "512";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input4 input[type=radio]+i {
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+
+.content-input4 input[type=radio]:checked+i:before {
+    content: "512";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input4 input[type=radio]:checked+i {
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input4 input[type=radio]:checked+i:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Diseño del primer botón de los extras*/
+
+.content-input5 input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input5 input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input5 {
+    position: relative;
+    margin-bottom: 70px;
+    padding: 5px 0 5px 100px;
+    cursor: pointer;
+}
+
+.content-input5 input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input5 input+i:before {
+    content: "Apple Care";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input5 input[type=checkbox]+i {
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+
+.content-input5 input[type=checkbox]:checked+i:before {
+    content: "Apple Care";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input5 input[type=checkbox]:checked+i {
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input5 input[type=checkbox]:checked+i:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Diseño del segundo botón de los extras*/
+
+.content-input6 input,
+.content-select select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.content-input6 input {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.content-input6 {
+    position: relative;
+    margin-bottom: 70px;
+    padding: 5px 0 5px 100px;
+    cursor: pointer;
+}
+
+.content-input6 input+i {
+    background: #ffffff;
+    border: 3px solid #00000033;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.content-input6 input+i:before {
+    content: "iCloud";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input6 input[type=checkbox]+i {
+    
+    width: 320px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+
+.content-input6 input[type=checkbox]:checked+i:before {
+    content: "iCloud";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+.content-input6 input[type=checkbox]:checked+i {
+    border-color: #1779e1;
+    box-shadow: 0 0 30px #4f90ff;
+    cursor: pointer;
+}
+
+.content-input6 input[type=checkbox]:checked+i:after {
+
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+/*Diseño de los hr*/
+
+.slash {
+
+    height: 1px;
+    width: 300px;
+    background-color: #cecece;
+    border: 0px;
+    margin-top: 30px;
+    margin-right: 170px;
+
+}
+
+.vslash {
+  
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height: 100vh;
+    width: 1px; 
+    margin-left: 400px; 
+    margin-top: -900px; 
+    height: 900px; 
+    margin-right: -30px; 
+    background-color: #cecece;
+     border: 0px;      
+}
+
+/*Diseño de los extras*/
+
+.titulo_extras {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+
+}
+
+.a_extras {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    color: #5a5a5a;
+    font-size: 25px;
+
+}
+
+.precios {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #5a5a5a;
+    font-size: 25px;
+
+}
+
+/*Diseño de la tabla*/
+
+.tabla{
+    margin-top:-8px;
+    border-radius: 50px;
+    box-shadow: #6868682b 0px 23px 25px 0px inset, #6868682b 0px 36px 30px 0px inset, #6868682b 0px -79px 40px 0px inset, #6868682b 0px 2px 1px, #6868682b 0px 4px 2px, #6868682b 0px 8px 4px, #6868682b 0px 16px 8px, #6868682b 0px 32px 16px, 0 0 30px #8a8a8a67;
+    background-color: #ffffff7f;
+    padding-left: 60px;
+}
+
+/*Diseño de de los extras*/
+
+.logo{
+    width: 8%;
+    padding-right: 30px;
+    vertical-align: middle;
+    margin-top: -12px;
+    filter: contrast(0%) drop-shadow(0px 0px 20px #00000074);
+
+}

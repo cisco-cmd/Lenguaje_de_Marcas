@@ -1,0 +1,80 @@
+.titulo{
+
+    font-family: arial;
+    color:red;
+    text-transform:uppercase;
+    text-align:center
+
+}
+
+.parrafo{
+
+    background-color: grey;
+    color: white;
+    font-family:arial;
+
+
+}
+
+.titulo3{
+
+    color:pink;
+    font-family: arial;
+    text-decoration: underline;
+
+}
+
+.parrafo2{
+
+    font-family: courier;
+    color:green;
+    font-style:italic;
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+
+}
+
+.parrafo3{
+
+    font-family: arial;
+    color:red;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight: bold;
+
+}
+
+.parrafo4{
+
+    background-color: lightblue;
+    color: white;
+    font-family:arial;
+
+
+}
+
+.parrafo5{
+
+    color:pink;
+    font-family: arial;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.parrafo6{
+
+    background-color: green;
+    color: white;
+    font-family:arial;
+    text-align: right;
+
+
+}
+
+.link{
+    color:green;
+    font-family: arial;
+}

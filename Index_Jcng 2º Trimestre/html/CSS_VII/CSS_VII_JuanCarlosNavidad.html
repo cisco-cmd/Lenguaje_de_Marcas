@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS VII: GetElementById</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS_VII_JuanCarlosNavidad.css">
+</head>
+<script>
+
+    function azul() {
+
+        document.getElementById("texto").style.color = "#69B2FF";
+
+    }
+
+    function negrita() {
+
+        document.getElementById("texto").style.fontWeight = "bold";
+
+    }
+
+    function cursiva() {
+
+        document.getElementById("texto").style.fontStyle = "italic";
+
+    }
+
+    function px() {
+
+        document.getElementById("texto").style.fontSize = "30px";
+
+    }
+
+    function verdana() {
+
+        document.getElementById("texto").style.fontFamily = "Verdana";
+
+    }
+
+    function ocultar() {
+
+        document.getElementById("texto").style.visibility = "hidden";
+
+    }
+
+    function mostrar() {
+
+        document.getElementById("texto").style.visibility = "visible";
+
+    }
+
+    function defecto() {
+
+        document.getElementById("texto").style.color = "white";
+
+        document.getElementById("texto").style.fontWeight = "normal";
+
+        document.getElementById("texto").style.fontStyle = "normal";
+
+        document.getElementById("texto").style.fontSize = "25px";
+
+        document.getElementById("texto").style.fontFamily = "Candara";
+
+        document.getElementById("texto").style.visibility = "visible";
+
+
+    }
+
+
+</script>
+
+<body>
+
+    <h1 class="titulo">Juan Carlos Navidad García</h1>
+
+    <hr class="hr2"><br>
+
+    <p id="texto" class="texto">Práctica CSS VII utilizando getElementById</p>
+
+    <br>
+    <hr class="hr1"><br><br>
+
+    <center>
+
+        <input class="boton1" type="button" name="Azul" value="Color Azul" onclick="azul()">
+        <input class="boton2" type="button" name="Negrita" value="Negrita" onclick="negrita()">
+        <input class="boton3" type="button" name="Cursiva" value="Cursiva" onclick="cursiva()">
+        <input class="boton4" type="button" name="30" value="Tamaño 30px" onclick="px()">
+        <input class="boton6" type="button" name="Verdana" value="Verdana" onclick="verdana()">
+        <input class="boton7" type="button" name="Ocultar" value="Ocultar" onclick="ocultar()">
+        <input class="boton8" type="button" name="Mostrar" value="Mostrar" onclick="mostrar()">
+        <input class="boton9" type="button" name="Defecto" value="Por defecto" onclick="defecto()">
+
+    </center>
+
+    <br>
+
+    <footer><a class="boton5" href="CSS_VII_JuanCarlosNavidad.css">Cargar fichero CSS</a></footer>
+
+
+
+
+</body>
+
+</html>

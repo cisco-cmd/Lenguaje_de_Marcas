@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Check con suma y resta II</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Check_JuanCarlosNavidad.css">
+</head>
+<script>
+
+    function suma(valor, idt) {
+
+        let preciototal = parseFloat(0);
+        preciototal = parseFloat(document.getElementById("total").innerHTML) + parseFloat(valor);
+        document.getElementById(idt).style.color = "#abaaff"
+        document.getElementById(idt).style.textShadow = "2px 2px 20px #0400ff";
+        document.getElementById(idt).style.fontWeight = "bold";
+        preciototal = preciototal.toFixed(2);
+        document.getElementById("total").innerHTML = preciototal;
+
+    }
+
+    function resta(valor, idt) {
+
+        let preciototal = parseFloat(0);
+        preciototal = parseFloat(document.getElementById("total").innerHTML) - parseFloat(valor);
+        document.getElementById(idt).style.color = "white";
+        document.getElementById(idt).style.textShadow = "0px 0px 0px white";
+        document.getElementById(idt).style.fontWeight = "normal";
+        preciototal = preciototal.toFixed(2);
+        document.getElementById("total").innerHTML = preciototal;
+
+    }
+
+</script>
+
+<body>
+
+    <h1 class="titulo">Juan Carlos Navidad García</h1>
+
+    <hr class="hr2"><br>
+    
+    <center>
+
+        <table border="0" style="text-align: left; width: max-content;">
+
+            <tr>
+                <td>
+                   
+
+                    <p class="boton" id="cervezas"> <label class="content-input"><input class="check" name="cervezas" type="checkbox"
+                            onclick="if (this.checked) suma(7,'cervezas'); else resta(7,'cervezas')"><i></i></label>Cervezas - 7€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="jamon"><label class="content-input"><input name="jamon" type="checkbox"
+                        onclick="if (this.checked) suma(2,'jamon'); else resta(2,'jamon')"><i></i></label>Jamón de York - 2€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="pan"><label class="content-input"><input name="pan" type="checkbox"
+                            onclick="if (this.checked) suma(3,'pan'); else resta(3,'pan')"><i></i></label>Pan de Molde - 3€ </p>
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    <p class="boton" id="cafe"><label class="content-input"><input name="cafe" type="checkbox"
+                            onclick="if (this.checked) suma(4,'cafe'); else resta(4,'cafe')"><i></i></label>Café - 4€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="leche"><label class="content-input"><input name="leche" type="checkbox"
+                            onclick="if (this.checked) suma(2,'leche'); else resta(2,'leche')"><i></i></label>Leche - 2€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>    
+                    <p class="boton" id="vino"><label class="content-input"><input name="vino" type="checkbox"
+                            onclick="if (this.checked) suma(8,'vino'); else resta(8,'vino')"><i></i></label>Vino - 8€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="gel"><label class="content-input"><input name="gel" type="checkbox"
+                            onclick="if (this.checked) suma(4,'gel'); else resta(4,'gel')"><i></i></label>Gel ducha - 4€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="galletas"><label class="content-input"><input name="galletas" type="checkbox"
+                            onclick="if (this.checked) suma(5,'galletas'); else resta(5,'galletas')"><i></i></label>Galletas - 5€ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="aceite"><label class="content-input"><input name="aceite" type="checkbox"
+                            onclick="if (this.checked) suma(19,'aceite'); else resta(19,'aceite')"><i></i></label>Aceite de Oliva - 19€</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="boton" id="detergente"><label class="content-input"><input name="detergente" type="checkbox"
+                            onclick="if (this.checked) suma(9.58,'detergente'); else resta(9.58,'detergente')"><i></i></label>Detergente - 9,58€ </p>
+                </td>
+            </tr>
+                    
+        </table>
+
+        <br>
+
+        <hr class="hr1">
+
+        <br>
+
+        <table style="margin-right:140px;">
+            
+                <tr>
+                    <td>
+                        <a class="total">Total: </a>
+                    </td>
+                    <td style="position: absolute;">
+                        <a class="precio" id="total" style="margin-left: 150px;">0</a><a class="precio">€ </a>
+                    </td>
+                </tr>
+
+        </table>
+
+    </center>
+
+    <br>
+
+    <footer><a class="boton5" href="Check_JuanCarlosNavidad.css">Cargar fichero CSS</a></footer>
+
+
+
+
+</body>
+
+</html>

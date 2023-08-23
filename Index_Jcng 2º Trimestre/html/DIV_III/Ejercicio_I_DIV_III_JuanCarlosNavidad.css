@@ -1,0 +1,112 @@
+body{
+    background-color: #e4f6f8;
+}
+
+.titulo{
+
+    color:#fff980;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    font-family: system-ui;
+    text-shadow: 2px 2px 20px #978d00;
+
+}
+
+.hr2 {
+    height: 10px;
+    width: 1000px;
+    background-color: #fff980;
+    border:0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #978d00;
+}
+  
+.pie{
+
+    box-shadow: 2px 2px 20px #ffe75c;
+    background-color: #ffed89fd;
+    font-family: system-UI;
+    border-top: 10px solid #0051ff;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #0051ff;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+  color:red;
+  font-family: system-ui;
+}
+
+a:visited {
+  color: red;
+  font-family: system-ui;
+}
+
+.opciones {
+  overflow:hidden;
+  text-align: center;
+  margin:auto;
+  background:#e4f6f8;
+  max-width: 100%;
+  margin-top:2%;
+  height: 1200px;
+}
+
+.opcion {
+  display:inline-table;
+  border:0;
+  background-color: #fdfdf036;
+  padding:15px;
+  height: -500%;
+  width:450px;
+  margin:3px;
+  font-family: system-ui;
+  border-radius: 8%;
+  box-shadow: 0px 0px 20px #00000005;
+  
+}
+
+.images{
+  width: 35%;
+  box-shadow: 0px 0px 20px #40404071;
+  border-radius: 10%;
+  transition: 0.45s ease;
+}
+
+.images:hover{
+  position: relative;
+  width: 38%;
+  box-shadow: 0px 0px 20px #40404071;
+  border-radius: 10%;
+  transition: 0.45s ease;
+}
+
+.nombre_actor {
+  font-size: 25px;
+  color:#0051ff;
+  text-shadow: 2px 2px 10px #006c9771;
+}
+
+span {
+  font-weight: normal;
+
+}
+
+.lista {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  list-style-image: url("img/check.png");
+  margin-top: 5%;
+}

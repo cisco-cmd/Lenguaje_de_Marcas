@@ -1,0 +1,48 @@
+.titulo{
+    color:#0071c7;
+}
+body{
+    background-color: aliceblue;
+    font-family: Verdana;
+}
+
+.griego{
+    list-style:lower-greek
+}
+
+.ol_I_titulo{
+    color:#0091ff;
+
+}
+
+.roman{
+    list-style:upper-roman
+}
+
+.apple{
+    list-style-image:url("Apple.png");
+    list-style-position: inside;
+}
+
+.adidas{
+    list-style-image:url("adidas.png");
+    list-style-position: inside;
+}
+
+.boton {
+
+    padding: 10px;
+
+    font-weight: bold;
+
+    font-size: 15px;
+
+    color: #515122;
+
+    background-color: #ffeb68;
+
+    border-radius: 15px;
+    
+    border: 3px solid #4e7101;
+
+}

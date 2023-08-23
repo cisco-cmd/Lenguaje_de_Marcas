@@ -1,0 +1,82 @@
+#divbody{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    width: 99.3%;
+    height: 120%;
+    border-color: blue;
+    border-width: 7px;
+    border-style: solid;
+    background-color: red;
+    
+}
+
+#div1{
+
+    position: relative;
+    float:left;
+    padding-top: 20px;
+    margin-top:5px;
+    margin-left: 10px;
+    width: 20%;
+    height: 10%;
+    font-family: system-UI;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: dashed;
+    background-color: #ffffffab;
+    font-size: 20px;
+
+}
+   
+#div2{
+    position: relative ;
+    float:left;
+    left: 4%;
+    top: 25%;
+    width: 50%;
+    text-align: center;
+    font-family:SYSTEM-UI;
+    font-size: 20px;
+    height: 100px;
+}
+
+
+#div3{
+
+    position: relative;
+    text-align: right;
+    float:right;
+    padding-top: 20px;
+    margin-top:5px;
+    margin-right: 10px;
+    width: 20%;
+    height: 10%;
+    font-family: system-UI;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: dashed;
+    background-color: #ffffffab;
+    font-size: 20px;
+
+}
+.pie{
+
+    background-color: #aaaaaa;
+    font-family: system-UI;
+    border-top: 7px solid #000000;
+    position: fixed;
+    height: 12%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}

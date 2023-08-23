@@ -1,0 +1,104 @@
+body{
+    background-color: #fff9e5;
+}
+
+.titulo{
+
+    color:black;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    font-family: system-ui;
+    text-shadow: 2px 2px 20px #bbbbbb;
+
+}
+
+.hr2 {
+    height: 10px;
+    width: 1900px;
+    background-color: #000000;
+    border:0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #828282;
+}
+  
+.pie{
+
+    box-shadow: 2px 2px 20px #555555;
+    background-color: #696969f5;
+    font-family: system-UI;
+    border-top: 10px solid #ffffff;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+  color:#3b2700;
+  font-family: system-ui;
+}
+
+a:visited {
+  color:#3b2700;
+  font-family: system-ui;
+}
+
+.opciones {
+  overflow:hidden;
+  text-align: center;
+  margin:auto;
+  background:#fff9e5;
+  width:75%;
+  margin-top:2%;
+  height: 1100px;
+}
+
+.opcion {
+  display:inline-table;
+  border:0;
+  background-color: #dbdbdb;
+  padding:15px;
+  height: 450px;
+  width:300px;
+  margin:3px;
+  font-family: system-ui;
+  border-radius: 8%;
+  box-shadow: 0px 0px 20px #4040402d;
+}
+
+.images{
+  width: 50%;
+  box-shadow: 0px 0px 20px #40404071;
+  border-radius: 10%;
+  transition: 0.45s ease;
+}
+
+.images:hover{
+  width: 55%;
+  box-shadow: 0px 0px 20px #40404071;
+  border-radius: 10%;
+  transition: 0.45s ease;
+}
+
+.nombre_actor {
+  font-size: 25px;
+}
+
+ol {
+  font-weight: bolder;
+}
+
+span {
+  font-weight: normal;
+
+}

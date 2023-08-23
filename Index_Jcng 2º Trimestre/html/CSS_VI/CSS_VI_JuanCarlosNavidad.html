@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS VI: Botones e Imágenes</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS_VI_JuanCarlosNavidad.css">
+</head>
+<script>
+
+    function dia() {
+        var texto1="Esto es un día soleado";
+        document.getElementById("img").src = "img/dia.jpg";
+        document.getElementById("texto").innerHTML = "Hace un día soleado";
+        
+    }
+
+    function atardecer() {
+        document.getElementById("img").src = "img/atardecer.jpg";
+        document.getElementById("texto").innerHTML = "Se está poniendo el sol"
+    }
+
+    function noche() {
+        document.getElementById("img").src = "img/noche.jpg";
+        document.getElementById("texto").innerHTML = "Ya se ha hecho de noche"
+    }
+
+</script>
+
+<body>
+
+    <h1 class="titulo">Juan Carlos Navidad García</h1>
+
+    <hr>
+
+    <h2 id="texto" class="texto">Hace un día soleado</h2>
+
+    <br>
+
+    <center><img class="img1 "id="img" src="img/dia.jpg" width="67%" ></center>
+
+    <br><br>
+
+
+    <center>
+
+    <input class="boton1" type="button" name="Día" value="Día" onclick="dia()">
+    <input class="boton2" type="button" name="Noche" value="Atardecer" onclick="atardecer()">
+    <input class="boton3" type="button" name="Noche" value="Noche" onclick="noche()">
+
+    </center>
+
+    <br>
+
+    <a class="boton5" href="CSS_VI_JuanCarlosNavidad.css">Cargar fichero CSS</a>
+
+
+
+
+</body>
+
+</html>

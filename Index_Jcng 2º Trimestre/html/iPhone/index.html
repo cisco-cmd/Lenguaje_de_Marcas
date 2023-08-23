@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Compra el iPhone 14 y iPhone 14 Pro</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images/apple.png" />
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<script src="script1.js"></script>
+
+<body>
+
+    <table class="tabla" cellspacing="10px">
+
+        <tr>
+
+            <!--Título-->
+
+            <td valign="top" style="padding-bottom:-50%">
+
+                <p class="titulo1"><span><img class="logo" src="images/apple_logo.png"></span>Nuevo iPhone 14 <span
+                        class="sombra1" id="texto1">x</span></p>
+
+            </td>
+
+            <!--Modelo y capacidad-->
+
+            <td valign="top" align="left" rowspan="3" width="25%">
+
+                <div class="titulo3" id="modelo">
+
+                    <p>Elija el modelo:</p>
+
+                    <p class="boton" id="iPhone14"> <label class="content-input"><input class="check" name="base"
+                                id="14" type="radio" value="1009" checked onclick="modelo()"><i>
+
+                                <p class="seleccion2">iPhone 14 Plus<span class="sombra4" id="texto1">6,1''</span><span
+                                        class="sombra3" id="texto3" style="margin-left:65px"> 1.009 €</span></p>
+
+                            </i></label></p>
+
+                    <p class="boton" id="iPhone14Plus"><label class="content-input1"><input name="base" type="radio"
+                                id="plus" value="1159" onclick="modelo1();prueba()"><i>
+
+                                <p class="seleccion1">iPhone 14 Plus<span class="sombra2" id="texto1">6,7''</span><span
+                                        class="" id="texto4" style="margin-left:30px"></span></p>
+
+                            </i></label></p>
+
+                    <hr class="slash">
+
+                    <div class="titulo4" id="xcapacidad" style="background-color: #a0a0a000; border-radius: 10px; margin-right: 110px; ">
+
+                        <p>Elija la capacidad:</p>
+
+                        <p class="boton" id="128"> <label class="content-input2"><input class="check" name="memoria"
+                                    type="radio" checked onclick="if (this.checked) modelo3(); else modelo4()"><i>
+
+                                    <p class="seleccion3">128<span class="sombra2"> GB</span><span class="sombra3"
+                                            id="texto5" style="margin-left: 180px;"> 0 €</span></p>
+
+                                </i></label></p>
+
+                        <p class="boton" id="256"><label class="content-input3"><input id="256" name="memoria"
+                                    type="radio" onclick="if (this.checked) modelo4(); else modelo5()" value="130"><i>
+
+                                    <p class="seleccion3">256<span class="sombra2"> GB</span><span class="" id="texto6"
+                                            style="margin-left: 180px;"></span></p>
+
+                                </i></label></p>
+
+                        <p class="boton" id="512"><label class="content-input4"><input name="memoria" type="radio"
+                                    onclick="if (this.checked) modelo5(); else modelo4()"><i>
+
+                                    <p class="seleccion3">512<span class="sombra2"> GB</span><span class="" id="texto7"
+                                            style="margin-left: 180px;"></span></p>
+
+                                </i></label></p>
+
+                        <hr class="vslash">
+
+                    </div>
+
+                </div>
+
+            </td>
+
+            <!--Extras y precios-->
+
+            <td valign="top" align="left" rowspan="3" width="25%">
+
+                <div class="titulo3" style="margin-left: -10px;">
+
+                    <p>Extras disponibles:</p>
+
+                    <p class="boton" id="AppleCare"> <label class="content-input5"><input class="check" name="extras"
+                                type="checkbox" onclick="if (this.checked) modelo6(); else modelo8();if (this.checked) suma(239); else resta(239); total();"><i>
+
+                                <p class="seleccion4">Apple Care<span class="" id="texto8"
+                                        style="margin-left: 165px;"></span></p>
+
+                            </i></label></p>
+
+
+                    <p class="boton" id="iCloud"><label class="content-input6"><input name="extras" type="checkbox"
+                                id="icloud" onclick="if (this.checked) modelo7(); else modelo9();if (this.checked) suma(35.88); else resta(35.88); total();"><i>
+
+                                <p class="seleccion4">iCloud<span class="sombra3" style="margin-left: 40px;">200
+                                        GB</span><span class="" id="texto9" style="margin-left: 50px;"></span></p>
+
+                            </i></label></p>
+
+                    <hr class="slash">
+
+                    <p class="titulo_extras">Precio base:</p>
+                    <a id="base" class="precios">1009</a><span class="precios"> €</span>
+                    <p class="titulo_extras">Color:</p>
+                    <a id="color" class="precios">0</a><span class="precios"> €</span>
+                    <p class="titulo_extras">Capacidad:</p>
+                    <a id="capacidad" class="precios">0</a><span class="precios"> €</span>
+                    <p class="titulo_extras">Extras:</p>
+                    <a id="extras" class="precios">0</a><span class="precios"> €</span>
+                    <p class="titulo_extras">Total:</p>
+                    <a id="total" class="precios">1009</a><span class="precios"> €</span>
+
+                </div>
+
+            </td>
+        </tr>
+
+        <tr>
+            <!--Slider de imágenes-->
+            <td bgcolor="#f5f5f7" style="border-radius:20px; box-shadow:inset 0 0 0px #00000080, 0 0 20px #0000007b;">
+
+                <div class="slide">
+
+                    <div class="slide-inner">
+
+                        <input class="slide-open" type="radio" id="slide-1" name="slide" hidden="" checked="checked">
+
+                        <div class="slide-item" id="slide">
+
+                            <img id="img1" src="images/Negro/negro1.jpeg">
+
+                        </div>
+
+                        <input class="slide-open" type="radio" id="slide-2" name="slide" hidden="">
+
+                        <div class="slide-item" id="slide">
+
+                            <img id="img2" src="images/Negro/negro2.jpeg">
+
+                        </div>
+
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-1" class="slide-control next control-3">›</label>
+
+                        <ol class="slide-indicador">
+
+                            <li>
+                                <label for="slide-1" class="slide-circulo">•</label>
+                            </li>
+
+                            <li>
+                                <label for="slide-2" class="slide-circulo">•</label>
+                            </li>
+
+                        </ol>
+
+                    </div>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <!--Colores-->
+
+            <td valign="top">
+
+                <p class="titulo2">Color: <span class="sombra" id="texto2"> Negro</span></p>
+
+                <div class="botones">
+
+                    <center>
+
+                        <input class="boton3" type="button" name="Medianoche" id="boton3" checked onclick="negro()">
+                        <input class="boton4" type="button" name="Blanco" id="boton4" onclick="blanco()">
+                        <input class="boton1" type="button" name="Azul" id="boton1" onclick="azul()">
+                        <input class="boton2" type="button" name="Púrpura" id="boton2" onclick="purpura()">
+                        <input class="boton5" type="button" name="Rojo" id="boton5" onclick="rojo()">
+
+                    </center>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

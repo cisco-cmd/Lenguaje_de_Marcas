@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS VIII: GetElementById con alternancia de botones</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS_VIII_JuanCarlosNavidad.css">
+</head>
+<script>
+
+    let xcolor=0;
+    let xnegrita=0;
+    let xcursiva=0;
+    let xpx=0;
+    let xverdana=0;
+    let xmostrar=0;
+
+    function azul() {
+
+        xcolor+=1;
+
+        if (xcolor%2==1)
+
+        document.getElementById("texto").style.color = "#69B2FF";
+
+        else
+
+        document.getElementById("texto").style.color = "white";
+
+    }
+
+    function negrita() {
+
+        xnegrita+=1;
+
+        if (xnegrita%2==1)
+
+        document.getElementById("texto").style.fontWeight = "bold";
+
+        else
+
+        document.getElementById("texto").style.fontWeight = "normal";
+
+    }
+
+    function cursiva() {
+
+        xcursiva+=1;
+
+        if (xcursiva%2==1)
+
+        document.getElementById("texto").style.fontStyle = "italic";
+
+        else
+
+        document.getElementById("texto").style.fontStyle = "normal";
+
+    }
+
+    function px() {
+
+        xpx+=1;
+
+        if (xpx%2==1)
+
+        document.getElementById("texto").style.fontSize = "30px";
+
+        else
+
+        document.getElementById("texto").style.fontSize = "25px";
+
+
+    }
+
+    function verdana() {
+
+        xverdana+=1;
+
+        if (xverdana%2==1)
+
+        document.getElementById("texto").style.fontFamily = "Verdana";
+
+        else
+
+        document.getElementById("texto").style.fontFamily = "Candara";
+
+
+    }
+
+
+    function mostrar() {
+
+        xmostrar+=1
+
+        if (xmostrar%2==1)
+
+        document.getElementById("texto").style.visibility = "visible";
+
+        else
+
+        document.getElementById("texto").style.visibility = "hidden";
+
+    }
+
+    function defecto() {
+
+        document.getElementById("texto").style.color = "white";
+
+        document.getElementById("texto").style.fontWeight = "normal";
+
+        document.getElementById("texto").style.fontStyle = "normal";
+
+        document.getElementById("texto").style.fontSize = "25px";
+
+        document.getElementById("texto").style.fontFamily = "Candara";
+
+        document.getElementById("texto").style.visibility = "visible";
+
+    }
+
+
+</script>
+
+<body>
+
+    <h1 class="titulo">Juan Carlos Navidad García</h1>
+
+    <hr class="hr2"><br>
+
+    <p id="texto" class="texto">Práctica CSS VII utilizando getElementById</p>
+
+    <br>
+    <hr class="hr1"><br><br>
+
+    <center>
+
+        <input class="boton1" type="button" name="Azul" value="Color Azul" onclick="azul()">
+        <input class="boton2" type="button" name="Negrita" value="Negrita" onclick="negrita()">
+        <input class="boton3" type="button" name="Cursiva" value="Cursiva" onclick="cursiva()">
+        <input class="boton4" type="button" name="30" value="Tamaño 30px" onclick="px()">
+        <input class="boton6" type="button" name="Verdana" value="Verdana" onclick="verdana()">
+        <input class="boton8" type="button" name="Mostrar/Ocultar" value="Mostrar/Ocultar" onclick="mostrar()">
+        <input class="boton9" type="button" name="Defecto" value="Por defecto" onclick="defecto()">
+
+    </center>
+
+    <br>
+
+    <footer><a class="boton5" href="CSS_VIII_JuanCarlosNavidad.css">Cargar fichero CSS</a></footer>
+
+
+
+
+</body>
+
+</html>
