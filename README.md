@@ -1,6 +1,5 @@
-# Welcome to GitHub Desktop!
+# Bienvenido a este repositorio
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Aquí encontrarás todos mis proyectos realizados para la asignatura de Lenguaje de Marcas en 1º de ASIR
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
 Juan Carlos Navidad García
