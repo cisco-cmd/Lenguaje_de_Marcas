@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Signika+Negative:wght@600&display=swap');
+
+body {
+  background-color: #f76c41;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.titulo {
+
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  text-shadow: 2px 2px 20px #b80101;
+
+}
+
+.hr1 {
+  border: 2px solid #504400;
+  width: 60%;
+}
+
+.nombre_prod {
+
+  font-size: 25px;
+  color: #70321f;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-weight: bold;
+
+}
+
+.opciones {
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  background: #f76c41;
+  margin: auto;
+  max-width: 100%;
+  width: auto;
+  margin-top: 2%;
+  font-family: calibri;
+}
+
+.opcion {
+  display: inline-block;
+  position: static;
+  resize: none;
+  border: 0;
+  background-color: #faf8f8;
+  opacity: 0.9;
+  padding: 15px;
+  height: 500px;
+  max-width: 20%;
+  width: auto;
+  margin: 5;
+  font-family: calibri;
+  border-radius: 8%;
+  box-shadow: 0px 0px 9px #a38b00;
+  
+}
+
+.desc {
+  text-align:left;
+}
+
+ul {
+  margin-left: 22%;
+  font-size: 20px;
+  color: #70321f;
+  list-style-image: url(Imagenes/banderaitalia.png);
+}
+
+.rojo {
+
+  color: #ff3c00;
+
+}
+
+.verde {
+
+  color: #05a000;
+
+}
+
+img {
+
+  width: 80%;
+  height: 60%;
+  border-radius: 20%;
+  box-shadow: 0px 0px 20px #000000;
+  transition: 0.20s ease;
+
+}
+
+img:hover {
+
+  width: 80%;
+  height: 60%;
+  border-radius: 20%;
+  box-shadow: 0px 0px 20px #000000;
+  opacity:0.8;
+  transition: 0.20s ease;
+
+}
+
+.enlace {
+
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 20px #b80101;
+
+}

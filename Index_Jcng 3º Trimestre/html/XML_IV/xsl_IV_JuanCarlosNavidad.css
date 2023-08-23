@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Signika+Negative:wght@600&display=swap');
+
+body {
+  background-color: #82e4ff;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.titulo {
+
+  text-align: center;
+
+}
+
+.hr1 {
+  border: 2px solid #000450;
+  width: 90%;
+  border-radius: 18.8%;
+}
+
+.cabecera {
+  width: 30%;
+
+}
+
+.tit_serie {
+
+  font-size: 25px;
+  color: #000450;
+  text-transform: uppercase;
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+.opciones {
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  margin-top: 2%;
+  font-family: calibri;
+}
+
+.opcion {
+
+  display: inline-table;
+  border: 0;
+  opacity: 0.9;
+  padding: 15px;
+  height: 42%;
+  width: 30%;
+  margin: 5;
+  font-family: calibri;
+  border-radius: 8%;
+  
+}
+
+.desc {
+  
+  text-align:left;
+  margin-left: 30%;
+  margin-top: -5%;
+}
+
+ul {
+
+  margin-left: 22%;
+  font-size: 21px;
+  color: #000450;
+  list-style-image: url(img/ok.png);
+
+}
+
+li {
+
+  margin-bottom: 5%;
+
+}
+
+.portadas{
+
+  width: 45%;
+  float: left;
+  margin-left:1%;
+  box-shadow: 0 0 30px white;
+  border-radius: 8%;
+  transition: 0.10s ease;
+
+}
+
+.portadas:hover{
+
+  width: 45%;
+  float: left;
+  margin-left:1%;
+  box-shadow: 0 0 30px white;
+  border-radius: 8%;
+  transform: scale(102%);
+  transition: 0.20s ease;
+
+}
+
+.enlace {
+
+  font-size: 25px;
+  color: rgb(255, 0, 111);
+  
+}

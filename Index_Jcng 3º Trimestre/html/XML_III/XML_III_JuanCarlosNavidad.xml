@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="XML_III_JuanCarlosNavidad.xsl"?>
+
+    <pizzeria>
+        
+		<web ruta="http://www.telepizza.es"> Web </web>
+		
+        <productos>
+            <codigo>B007</codigo>
+            <titulo>Mahou 5 estrellas</titulo>
+            <pvp>2.50</pvp>
+            <tipo>B</tipo>
+            <imagen>mahou.png</imagen>
+        </productos>
+        <productos>
+            <codigo>H001</codigo>
+            <titulo>Hamburguesa Basica</titulo>
+            <pvp>2.30</pvp>
+            <tipo>H</tipo>
+            <imagen>basica.png</imagen>
+        </productos>
+        <productos>
+            <codigo>H002</codigo>
+            <titulo>Hamburguesa con Queso</titulo>
+            <pvp>3.01</pvp>
+            <tipo>H</tipo>
+            <imagen>conqueso.png</imagen>
+        </productos>
+        <productos>
+            <codigo>H003</codigo>
+            <titulo>Hamburguesa Maxi</titulo>
+            <pvp>4.21</pvp>
+            <tipo>H</tipo>
+            <imagen>maxi.jpeg</imagen>
+        </productos>
+        <productos>
+            <codigo>H004</codigo>
+            <titulo>Hamburguesa Completa</titulo>
+            <pvp>3.90</pvp>
+            <tipo>H</tipo>
+            <imagen>completa.png</imagen>
+        </productos>
+        <productos>
+            <codigo>H005</codigo>
+            <titulo>Hamburguesa Vegana</titulo>
+            <pvp>6.33</pvp>
+            <tipo>H</tipo>
+            <imagen>vegana.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>P001</codigo>
+            <titulo>Pizza Barbacoa</titulo>
+            <pvp>11.40</pvp>
+            <tipo>P</tipo>
+            <imagen>pizza_barbacoa.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>P003</codigo>
+            <titulo>Pizza Carbonara</titulo>
+            <pvp>12.30</pvp>
+            <tipo>P</tipo>
+            <imagen>pizza_carbonara.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>P004</codigo>
+            <titulo>Pizza Pepperoni</titulo>
+            <pvp>11.35</pvp>
+            <tipo>P</tipo>
+            <imagen>pizza_pepperoni.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>P005</codigo>
+            <titulo>Pizza Napolitana</titulo>
+            <pvp>9.98</pvp>
+            <tipo>P</tipo>
+            <imagen>pizza_napolitana.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>E001</codigo>
+            <titulo>Ensalada mixta</titulo>
+            <pvp>3.77</pvp>
+            <tipo>E</tipo>
+            <imagen>ensalada_mixta.jpg</imagen>
+
+        </productos>
+        <productos>
+            <codigo>E002</codigo>
+            <titulo>Ensalada Cesar</titulo>
+            <pvp>4.77</pvp>
+            <tipo>E</tipo>
+            <imagen>ensalada_cesar.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>F001</codigo>
+            <titulo>Patatas fritas</titulo>
+            <pvp>3.75</pvp>
+            <tipo>F</tipo>
+            <imagen>patatas_fritas.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>F002</codigo>
+            <titulo>Patatas fritas con huevo</titulo>
+            <pvp>4.70</pvp>
+            <tipo>F</tipo>
+            <imagen>patatasfritas_con_huevo.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>F004</codigo>
+            <titulo>Nuggets de Pollo</titulo>
+            <pvp>5.94</pvp>
+            <tipo>F</tipo>
+            <imagen>nuggets_pollo.jpg</imagen>
+        </productos>
+        <productos>
+            <codigo>B003</codigo>
+            <titulo>Alhambra Special</titulo>
+            <pvp>2.45</pvp>
+            <tipo>B</tipo>
+            <imagen>alhambra.png</imagen>
+        </productos>
+    </pizzeria>

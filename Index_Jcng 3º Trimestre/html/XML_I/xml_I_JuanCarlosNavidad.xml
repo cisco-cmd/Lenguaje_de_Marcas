@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml_I_JuanCarlosNavidad.css"?>
+<obras>
+  <caption>Cuadros Juan Carlos Navidad</caption>
+<cabecera>
+<titulo>Titulo</titulo>
+<autor>Autor</autor>
+<nacionalidad>Nacionalidad</nacionalidad>
+<año>Año</año>
+<estilo>Estilo</estilo>
+</cabecera>
+  <cuadro>
+    <titulo>El Jardín de las delicias</titulo>
+    <autor>El Bosco</autor>
+    <nacionalidad>Neerlandés</nacionalidad>
+    <año>1500-1505</año>
+    <estilo>Renacimiento</estilo>
+  </cuadro>
+ <cuadro>
+    <titulo>La joven de la perla</titulo>
+    <autor>Johannes Vermeer</autor>
+    <nacionalidad>Neerlandés</nacionalidad>
+    <año>1665</año>
+    <estilo>Barroco holandés</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>El Beso</titulo>
+    <autor>Gustav Klimt</autor>
+    <nacionalidad>Austriaco</nacionalidad>
+    <año>1907-1908</año>
+    <estilo>Art Nouveau</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>La noche estrellada</titulo>
+    <autor>Vincent van Gogh</autor>
+    <nacionalidad>Neerlandés</nacionalidad>
+    <año>1889</año>
+    <estilo>Postimpresionismo</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>El grito</titulo>
+    <autor>Edvard Munch</autor>
+    <nacionalidad>Noruego</nacionalidad>
+    <año>1893</año>
+    <estilo>Expresionismo</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>La persistencia de la memoria</titulo>
+    <autor>Salvador Dalí</autor>
+    <nacionalidad>Español</nacionalidad>
+    <año>1931</año>
+    <estilo>Surrealismo</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>Guernica</titulo>
+    <autor>Pablo Picasso</autor>
+    <nacionalidad>Español</nacionalidad>
+    <año>1937</año>
+    <estilo>Cubismo</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>Mañana soleada</titulo>
+    <autor>Edward Hopper</autor>
+    <nacionalidad>Estadounidense</nacionalidad>
+    <año>1942</año>
+    <estilo>Realismo</estilo>
+  </cuadro>
+  <cuadro>
+    <titulo>La gran ola de Kanagawa</titulo>
+    <autor>Katsushika Hokusai</autor>
+    <nacionalidad>Japonés</nacionalidad>
+    <año>1833</año>
+    <estilo>Ukiyo-e</estilo>
+  </cuadro>
+    <cuadro>
+    <titulo>Las Meninas</titulo>
+    <autor>Diego Velázquez</autor>
+    <nacionalidad>Español</nacionalidad>
+    <año>1656</año>
+    <estilo>Barroco</estilo>
+  </cuadro>
+</obras>

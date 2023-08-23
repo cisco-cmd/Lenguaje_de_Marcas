@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_IV_JuanCarlosNavidad.xsl"?>
+<series>
+
+  <web ruta="https://www.emmys.com/awards/nominees-winners"> Web Oficial Emmys </web>
+
+  <serie numero="1">
+    <titulo>The Last Of Us</titulo>
+    <año>2023</año>
+    <actor1>Pedro Pascal</actor1>
+    <actor2>Bella Ramsey</actor2>
+    <temporadas>1</temporadas>
+    <plataforma>HBO</plataforma>
+    <valoracion>9</valoracion>
+    <web enlace="https://www.hbomax.com/es/es/series/urn:hbo:series:GYyofRQHeuJ6fiQEAAAEy"> Enlace </web>
+    <imagen>lastofus.jpg</imagen>
+  </serie>
+  <serie numero="2">
+    <titulo>The Mandalorian</titulo>
+    <año>2019</año>
+    <actor1>Pedro Pascal</actor1>
+    <actor2>Katee Sackhoff</actor2>
+    <temporadas>3</temporadas>
+    <plataforma>Disney +</plataforma>
+    <valoracion>8</valoracion>
+    <web enlace="https://www.disneyplus.com/es-es/series/the-mandalorian/3jLIGMDYINqD"> Enlace </web>
+    <imagen>Mandalorian.jpg</imagen>
+  </serie>
+  <serie numero="3">
+    <titulo>Willow</titulo>
+    <año>2022</año>
+    <actor1>Warwick Davis</actor1>
+    <actor2>Ruby Cruz</actor2>
+    <temporadas>1</temporadas>
+    <plataforma>Amazon Prime</plataforma>
+    <valoracion>6</valoracion>
+    <web enlace="https://www.primevideo.com/detail/Willow/0I7U6CTY1PJ9PXH2KSUNWPTNBW"> Enlace </web>
+    <imagen>Willow.jpg</imagen>
+  </serie>
+  <serie numero="4">
+    <titulo>The Peripheral</titulo>
+    <año>2022</año>
+    <actor1>Chloë Grace Moretz</actor1>
+    <actor2>Gary Carr</actor2>
+    <temporadas>1</temporadas>
+    <plataforma>Amazon Prime</plataforma>
+    <valoracion>4</valoracion>
+    <web enlace="https://www.primevideo.com/detail/0PE2SANXUROCEZ5W2FD7WGMM9R/ref=atv_sr_fle_c_Tn74RA_1_1_1"> Enlace </web>
+    <imagen>Peripheral.jpg</imagen>
+  </serie>
+  <serie numero="5">
+    <titulo>Obi Wan Kenobi</titulo>
+    <año>2022</año>
+    <actor1>Ewan McGregor</actor1>
+    <actor2>Indira Varma</actor2>
+    <temporadas>1</temporadas>
+    <plataforma>Disney +</plataforma>
+    <valoracion>8</valoracion>
+    <web enlace="https://www.disneyplus.com/es-es/series/obi-wan-kenobi/2JYKcHv9fRJb"> Enlace </web>
+    <imagen>Kenobi.jpg</imagen>
+  </serie>
+  <serie numero="6">
+    <titulo>Caballero Luna</titulo>
+    <año>2022</año>
+    <actor1>Oscar Isaac</actor1>
+    <actor2>Ethan Hawke</actor2>
+    <temporadas>1</temporadas>
+    <plataforma>Disney +</plataforma>
+    <valoracion>4</valoracion>
+    <web enlace="https://www.disneyplus.com/es-es/series/caballero-luna/4S3oOF1knocS"> Enlace </web>
+    <imagen>caballeroluna.jpg</imagen>
+  </serie>
+  <serie numero="7">
+    <titulo>Outer Banks</titulo>
+    <año>2020</año>
+    <actor1>Chase Stokes</actor1>
+    <actor2>Madelyn Cline</actor2>
+    <temporadas>3</temporadas>
+    <plataforma>Netflix</plataforma>
+    <valoracion>2</valoracion>
+    <web enlace="https://www.netflix.com/es/title/80236318"> Enlace </web>
+    <imagen>outerbanks.jpg</imagen>
+  </serie>
+  <serie numero="8">
+    <titulo>El Juego Del Calamar</titulo>
+    <año>2021</año>
+    <actor1>Lee Jung-Jae</actor1>
+    <actor2>Park Hae-soo</actor2>
+    <temporadas>Netflix</temporadas>
+    <plataforma>1</plataforma>
+    <valoracion>4</valoracion>
+    <web enlace="https://www.netflix.com/es/title/81040344"> Enlace </web>
+    <imagen>juegodelcalamar.jpg</imagen>
+  </serie>
+  <serie numero="9">
+    <titulo>Yellowstone</titulo>
+    <año>2018</año>
+    <actor1>Kevin Costner</actor1>
+    <actor2>Kelly Reilly</actor2>
+    <temporadas>5</temporadas>
+    <plataforma>SkyShowtime</plataforma>
+    <valoracion>7</valoracion>
+    <web enlace="https://www.skyshowtime.com/es/stream/tv/yellowstone/338b5346-a189-34a4-bfe2-df1ad18eccbd"> Enlace </web>
+    <imagen>Yellowstone.jpg</imagen>
+  </serie>
+  <serie numero="10">
+    <titulo>The Watcher</titulo>
+    <año>2022</año>
+    <actor1>Naomi Watts</actor1>
+    <actor2>Bobby Cannavale</actor2>
+    <temporadas>1</temporadas>
+    <plataforma>Netflix</plataforma>
+    <valoracion>7</valoracion>
+    <web enlace="https://www.primevideo.com/detail/The-Watcher/0LLC2RW6JN7LR5Y9AA4YA5IVBJ/ref=atv_nb_lcl_es_ES?language=es_ESie=UTF8"> Enlace </web>
+    <imagen>watcher.jpg</imagen>
+  </serie>
+  <serie numero="11">
+    <titulo>Reacher</titulo>
+    <año>2022</año>
+    <actor1>Alan Ritchson</actor1>
+    <actor2>Willa Fitzgerald</actor2>
+    <temporadas>2</temporadas>
+    <plataforma>Amazon Prime</plataforma>
+    <valoracion>6</valoracion>
+    <web enlace="https://www.primevideo.com/detail/0RTZ57DQ6PBHH29UN5JS7U7CW4/ref=atv_sr_fle_c_Tn74RA_1_1_1?language=es_ES"> Enlace </web>
+    <imagen>Reacher.jpg</imagen>
+  </serie>
+  <serie numero="12">
+    <titulo>The Witcher</titulo>
+    <año>2019</año>
+    <actor1>Henry Cavill</actor1>
+    <actor2>Anya Chalotra</actor2>
+    <temporadas>2</temporadas>
+    <plataforma>Netflix</plataforma>
+    <valoracion>2</valoracion>
+    <web enlace="https://www.netflix.com/es/title/80189685"> Enlace </web>
+    <imagen>witcher.jpg</imagen>
+  </serie>
+</series>
