@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cervezas Juan Carlos Navidad</title>
+    <meta charset="UTF-8">
+</head>
+
+<script type="text/javascript" charset="UTF-8">
+
+    function capturacampo(campo) {
+        var cadena = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        var cadena2, parametros, i;
+        for (i = 0; i < cadena.length; i++) {
+            parametros = cadena[i].split('=');
+            if (parametros[0] == campo) {
+                cadena2 = parametros[1];
+            }
+        }
+        return cadena2;
+    }
+
+    var nombre = capturacampo("nombre");
+    let edad = Number(capturacampo("edad"));
+    let cantidad = Number(capturacampo("cantidad"));
+    var cervezas = capturacampo("cervezas");
+    var nombre1= nombre.replaceAll("+"," ");
+
+    if (edad<18){
+        document.write("<p align=center> <font color=blue face=courier size=15px> <b>" + nombre1 + "</b>, no tienes edad para beber cerveza</font></p>")
+        document.write("<center><input type=button value='Volver al formulario' onclick=history.back()></center>");
+
+    }
+
+    if(edad>=18 && cantidad<0){
+        document.write("<p align=center> <font color=blue face=courier size=15px> <b>" + nombre1 + "</b>, el número de cervezas no es correcto</font></p>")
+        document.write("<center><input type=button value='Volver al formulario' onclick=history.back()></center>");
+    }
+
+    if (edad>=18 && cantidad>0){
+    document.write("<body bgcolor=#cefc9f align=center>")
+    document.write("<p align=center> <font color=blue face=courier size=15px>Aquí tienes tu pedido <b>" + nombre1 + "</b></p>")
+        if(cervezas=="Estrella_Galicia"){
+            for(let i = 0 ; i<cantidad ; i++){
+                document.write("<img src=img/estrella.png width=100px>");
+            };
+            let totalE_G = 0.75*cantidad;
+            document.write("<br>Total a pagar: <b>"+totalE_G.toFixed(2)+"€</b>");
+        };
+
+        if(cervezas=="Mahou"){
+            for(let i = 0 ; i<cantidad ; i++){
+                document.write("<img src=img/mahou.png width=100px>");
+            };
+            let totalM = 0.75*cantidad;
+            document.write("<br>Total a pagar: <b>"+totalM.toFixed(2)+"€</b>");
+        };
+
+        if(cervezas=="Alhambra"){
+            for(let i = 0 ; i<cantidad ; i++){
+                document.write("<img src=img/alhambra.png width=100px>")
+            }
+            let totalA = 0.75*cantidad;
+            document.write("<br>Total a pagar: <b>"+totalA.toFixed(2)+"€</b>");
+        }
+
+        if(cervezas=="San_Miguel"){
+            for(let i = 0 ; i<cantidad ; i++){
+                document.write("<img src=img/sanmiguel.png width=100px>")
+            }
+            let totalS_M = 0.50*cantidad;
+            document.write("<br>Total a pagar: <b>"+totalS_M.toFixed(2)+"€</b>");
+        }
+
+        if(cervezas=="Aguila_sin_filtrar"){
+            for(let i = 0 ; i<cantidad ; i++){
+                document.write("<img src=img/aguilasin.jpg width=150px>")
+            }
+            let totalA_S = 0.95*cantidad;
+            document.write("<br>Total a pagar: <b>"+totalA_S.toFixed(2)+"€</b>");
+        }
+        
+        if(cervezas=="Voll_Damm"){
+            for(let i = 0 ; i<cantidad ; i++){
+                document.write("<img src=img/volldamm.png width=150px>")
+            }
+            let totalV_D = 0.95*cantidad;
+            document.write("<br>Total a pagar: <b>"+totalV_D.toFixed(2)+"€</b>");
+        }
+        document.write("<center><input type=button value='Volver al formulario' onclick=history.back()></center>");
+    document.write("</font></body>")
+    }
+
+
+
+</script>
+
+<body bgcolor="#cefc9f">
+    <font size="5px" face="courier">
+</body>
+
+</html>
